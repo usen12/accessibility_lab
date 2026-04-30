@@ -1,0 +1,505 @@
+WEBVTT
+
+1
+00:00:01.480 --> 00:00:03.740
+Was gibt es Neues im Bereich Barrierefreiheit bei Google?
+
+2
+00:00:05.260 --> 00:00:07.860
+Hallo zusammen, hier ist wieder Laura Allen, Leiterin für
+
+3
+00:00:07.860 --> 00:00:10.860
+Strategie und Programme für Barrierefreiheit und Inklusion von Menschen mit Behinderung
+
+4
+00:00:10.860 --> 00:00:11.320
+bei Google.
+
+5
+00:00:11.980 --> 00:00:14.260
+Willkommen zurück zu einer weiteren Folge von "Was gibt's Neues
+
+6
+00:00:14.260 --> 00:00:16.760
+bei der Barrierefreiheit bei Google" – einer Serie, in der wir
+
+7
+00:00:16.760 --> 00:00:18.760
+neue Wege zeigen, wie wir unsere Produkte und
+
+8
+00:00:18.760 --> 00:00:20.820
+Funktionen für alle zugänglicher machen.
+
+9
+00:00:21.360 --> 00:00:23.800
+In dieser Folge sprechen wir über Barrierefreiheitsupdates
+
+10
+00:00:23.800 --> 00:00:27.200
+für Produkte wie Chrome OS, Android, Workspace
+
+11
+00:00:27.320 --> 00:00:27.720
+und mehr.
+
+12
+00:00:28.120 --> 00:00:30.260
+Also, los geht's – wir starten mit Text-zu-Sprache
+
+13
+00:00:30.260 --> 00:00:31.360
+in Chrome OS.
+
+14
+00:00:34.500 --> 00:00:37.320
+Anfang dieses Jahres haben wir neue, natürlich klingende
+
+15
+00:00:37.320 --> 00:00:39.580
+Text-zu-Sprache-Stimmen zu Chrome OS hinzugefügt,
+
+16
+00:00:40.000 --> 00:00:41.860
+sodass Nutzerinnen und Nutzer jetzt aus verschiedenen
+
+17
+00:00:41.860 --> 00:00:43.680
+Stimmen und Sprachen wählen können.
+
+18
+00:00:48.200 --> 00:00:50.560
+Text-zu-Sprache ermöglicht es Nutzerinnen und Nutzern,
+
+19
+00:00:50.560 --> 00:00:51.720
+sich den Bildschirminhalt vorlesen zu lassen.
+
+20
+00:00:52.420 --> 00:00:54.560
+Diese Funktion ist hilfreich für Menschen mit
+
+21
+00:00:54.560 --> 00:00:57.140
+Sehbehinderungen – wie mich – oder für jene,
+
+22
+00:00:57.140 --> 00:00:59.240
+die Inhalte lieber hören als lesen.
+
+23
+00:00:59.980 --> 00:01:01.780
+Die neuen Stimmen können mit ChromeVox verwendet werden,
+
+24
+00:01:01.780 --> 00:01:04.760
+dem integrierten Screenreader von Chromebooks, sowie mit
+
+25
+00:01:04.760 --> 00:01:07.040
+"Zum Sprechen auswählen", womit ausgewählte
+
+26
+00:01:07.040 --> 00:01:08.720
+Textabschnitte vorgelesen werden können.
+
+27
+00:01:11.970 --> 00:01:14.070
+Auch von Android gibt es spannende
+
+28
+00:01:14.070 --> 00:01:14.530
+Neuigkeiten.
+
+29
+00:01:15.230 --> 00:01:17.970
+Zunächst haben wir eine Video-Tutorial-Serie erstellt,
+
+30
+00:01:17.970 --> 00:01:20.210
+die Tipps zur Nutzung von Barrierefreiheitsfunktionen gibt
+
+31
+00:01:20.210 --> 00:01:23.310
+und zeigt, wie man das Android-Gerät je nach
+
+32
+00:01:23.310 --> 00:01:24.450
+Behinderung personalisieren kann.
+
+33
+00:01:25.290 --> 00:01:27.670
+Zum Beispiel sehen wir hier einen Ausschnitt aus dem Video
+
+34
+00:01:27.670 --> 00:01:30.630
+„So navigieren Sie mit Gesichtsgesten auf dem Smartphone“.
+
+35
+00:01:30.910 --> 00:01:33.290
+Darin geht es um Camera Switches und
+
+36
+00:01:33.290 --> 00:01:36.310
+Project Activate – zwei Funktionen, mit denen Menschen
+
+37
+00:01:36.310 --> 00:01:38.550
+durch Augenbewegungen und Gesichtsgesten
+
+38
+00:01:38.550 --> 00:01:38.950
+ihre Telefone bedienen können.
+
+39
+00:01:39.770 --> 00:01:42.390
+Außerdem haben wir große Updates an Lookout vorgenommen,
+
+40
+00:01:42.390 --> 00:01:44.810
+unserer App, die mithilfe der Kamera
+
+41
+00:01:44.810 --> 00:01:47.810
+Texte liest, Objekte erkennt und mehr kann.
+
+42
+00:01:48.930 --> 00:01:51.470
+Im Frühjahr haben wir Selfie- und Aufnahme-Buttons
+
+43
+00:01:51.470 --> 00:01:53.810
+für den Bildmodus eingeführt – damit können Nutzer
+
+44
+00:01:53.810 --> 00:01:56.430
+Fotos machen und eine KI-generierte Beschreibung
+
+45
+00:01:56.430 --> 00:01:57.990
+des Bildinhalts anhören.
+
+46
+00:01:58.930 --> 00:02:01.250
+Wie in diesem Beispiel: Wir haben eine Landschaft
+
+47
+00:02:01.250 --> 00:02:04.110
+fotografiert – Lookout beschreibt Hügel, Fluss
+
+48
+00:02:04.370 --> 00:02:05.630
+und einen Heißluftballon am Himmel.
+
+49
+00:02:07.229 --> 00:02:09.009
+In diesem Bild sehen wir Hügel,
+
+50
+00:02:09.009 --> 00:02:09.729
+einen Fluss
+
+51
+00:02:09.970 --> 00:02:11.330
+und einen Ballon in der Luft.
+
+52
+00:02:11.370 --> 00:02:12.770
+Im Hintergrund sehen wir
+
+53
+00:02:12.770 --> 00:02:13.590
+Wolken am Himmel.
+
+54
+00:02:14.450 --> 00:02:17.090
+Im Mai haben wir den Find-Modus eingeführt,
+
+55
+00:02:17.090 --> 00:02:19.910
+mit dem Nutzer gezielt Objekte auswählen
+
+56
+00:02:19.910 --> 00:02:22.110
+und leichter finden können.
+
+57
+00:02:22.930 --> 00:02:24.910
+Wir haben auch die Texterkennung verbessert,
+
+58
+00:02:24.910 --> 00:02:27.910
+sodass Lookout Text und Handschrift
+
+59
+00:02:27.910 --> 00:02:30.530
+besser erkennen kann – im Text- und Bildmodus.
+
+60
+00:02:33.670 --> 00:02:35.970
+Lieber Gabriel, danke für dein schönes Geschenk.
+
+61
+00:02:36.770 --> 00:02:38.390
+War schön, dich letzte Woche zu sehen.
+
+62
+00:02:38.770 --> 00:02:40.190
+Hoffe, wir sehen uns bald wieder.
+
+63
+00:02:40.830 --> 00:02:41.930
+Alles Liebe, Aiden.
+
+64
+00:02:42.390 --> 00:02:45.370
+Und wir haben eine Umfrage zur Nutzerzufriedenheit in Lookout integriert,
+
+65
+00:02:45.370 --> 00:02:47.910
+damit Nutzer direkt Feedback geben können.
+
+66
+00:02:48.970 --> 00:02:50.810
+Wir freuen uns sehr über eure Rückmeldungen!
+
+67
+00:02:54.740 --> 00:02:56.780
+Auch in Google Workspace haben wir viele
+
+68
+00:02:56.780 --> 00:02:59.380
+neue Barrierefreiheitsfunktionen eingeführt – z. B. in Google Meet.
+
+69
+00:03:00.320 --> 00:03:02.740
+Bisher haben Nutzer Fragen in Meet meist durch
+
+70
+00:03:02.740 --> 00:03:04.680
+Handheben-Button oder Tastenkürzel gestellt.
+
+71
+00:03:08.660 --> 00:03:10.640
+Jetzt gibt es eine neue Einstellung, mit der man
+
+72
+00:03:10.640 --> 00:03:12.360
+die Hand physisch heben kann, um sich zu melden.
+
+73
+00:03:12.360 --> 00:03:12.760
+Google Meet erkennt dies per Gestenerkennung
+
+74
+00:03:13.320 --> 00:03:15.260
+und benachrichtigt alle Teilnehmer.
+
+75
+00:03:17.880 --> 00:03:20.220
+Auch die Layout-Optionen wurden erweitert:
+
+76
+00:03:20.220 --> 00:03:22.300
+Man kann jetzt anpassen, was auf dem Bildschirm angezeigt wird,
+
+77
+00:03:22.300 --> 00:03:22.980
+etwa nur Teilnehmer mit Video.
+
+78
+00:03:31.340 --> 00:03:33.820
+In Google Drive freuen wir uns über
+
+79
+00:03:33.820 --> 00:03:36.920
+die neue Funktion "Navigation über Anfangsbuchstaben",
+
+80
+00:03:37.420 --> 00:03:39.620
+mit der man Dateien schneller finden kann.
+
+81
+00:03:40.620 --> 00:03:42.860
+Das ist besonders hilfreich für Tastaturnutzer,
+
+82
+00:03:42.860 --> 00:03:45.100
+etwa mit Screenreadern.
+
+83
+00:03:46.720 --> 00:03:49.320
+Statt mit Pfeiltasten zu navigieren, tippt man einfach
+
+84
+00:03:49.320 --> 00:03:52.820
+den ersten Buchstaben der Datei ein – z. B. „L“
+
+85
+00:03:52.820 --> 00:03:55.400
+für „Leadership and Organization“ – und Drive springt
+
+86
+00:03:55.400 --> 00:03:57.260
+zum ersten passenden Eintrag.
+
+87
+00:04:04.130 --> 00:04:06.450
+Außerdem kann man in Google Drive jetzt
+
+88
+00:04:06.450 --> 00:04:08.830
+den Dark Mode aktivieren – mit dunklem Hintergrund und hellem Text.
+
+89
+00:04:11.270 --> 00:04:13.310
+Für viele Nutzerinnen und Nutzer verbessert das
+
+90
+00:04:13.310 --> 00:04:14.630
+die Lesbarkeit und reduziert die Augenbelastung.
+
+91
+00:04:16.130 --> 00:04:19.230
+In Google Kalender wird die Funktion „Terminfenster“
+
+92
+00:04:19.230 --> 00:04:22.330
+durch die barrierefreiere „Terminplanung“ ersetzt.
+
+93
+00:04:23.830 --> 00:04:26.750
+Damit können Nutzer Buchungsseiten erstellen und teilen
+
+94
+00:04:26.750 --> 00:04:28.670
+und ihre Termine direkt im Kalender sehen.
+
+95
+00:04:34.230 --> 00:04:36.950
+Zuletzt: Nach dem Ende der HTML-Ansicht in Gmail
+
+96
+00:04:36.950 --> 00:04:39.450
+haben wir einen Leitfaden veröffentlicht,
+
+97
+00:04:39.450 --> 00:04:41.290
+wie Screenreader-Nutzer zur Standardansicht wechseln können.
+
+98
+00:04:44.270 --> 00:04:45.810
+Unbedingt reinschauen, falls noch nicht geschehen.
+
+99
+00:04:50.340 --> 00:04:52.740
+In Google Maps haben wir jetzt weltweit
+
+100
+00:04:52.740 --> 00:04:55.300
+ausführliche Sprachführung eingeführt.
+
+101
+00:04:56.280 --> 00:04:58.740
+Diese Funktion wurde 2019 erstmals eingeführt
+
+102
+00:04:59.400 --> 00:05:01.640
+und bietet detaillierte Sprachanweisungen für Fußwege.
+
+103
+00:05:04.600 --> 00:05:06.520
+Hier sieht man Wakana in Tokio bei der Nutzung.
+
+104
+00:05:08.960 --> 00:05:10.740
+Die Funktion bestätigt, ob man auf dem richtigen Weg ist,
+
+105
+00:05:10.740 --> 00:05:13.120
+wie weit es bis zur nächsten Abbiegung ist
+
+106
+00:05:13.120 --> 00:05:15.640
+und warnt vor viel befahrenen Kreuzungen.
+
+107
+00:05:16.600 --> 00:05:18.280
+Diese Funktion war für mich persönlich ein Game-Changer,
+
+108
+00:05:18.280 --> 00:05:20.840
+vor allem auf unbekannten Wegen.
+
+109
+00:05:21.440 --> 00:05:23.620
+Sie ist auch hilfreich für alle, die unterwegs
+
+110
+00:05:23.620 --> 00:05:24.920
+nicht ständig aufs Handy schauen können.
+
+111
+00:05:25.460 --> 00:05:27.820
+Wir sehen das als eine Art virtuelle Bordsteinabsenkung,
+
+112
+00:05:27.820 --> 00:05:28.960
+die vielen Menschen hilft.
+
+113
+00:05:29.520 --> 00:05:31.680
+Bisher war die Funktion nur auf Englisch in den USA
+
+114
+00:05:31.680 --> 00:05:33.840
+und auf Japanisch in Japan verfügbar.
+
+115
+00:05:34.520 --> 00:05:36.880
+Jetzt ist sie weltweit in allen unterstützten Sprachen nutzbar.
+
+116
+00:05:40.900 --> 00:05:43.220
+Danke fürs Einschalten bei "Was gibt's Neues
+
+117
+00:05:43.220 --> 00:05:44.780
+bei der Barrierefreiheit bei Google".
+
+118
+00:05:45.500 --> 00:05:47.140
+Wir hoffen, ihr hattet Spaß beim Kennenlernen
+
+119
+00:05:47.140 --> 00:05:49.740
+unserer neuesten Bemühungen zur Verbesserung von
+
+120
+00:05:49.740 --> 00:05:50.340
+Barrierefreiheit.
+
+121
+00:05:51.160 --> 00:05:52.720
+Schaut in die Videobeschreibung auf YouTube,
+
+122
+00:05:52.720 --> 00:05:55.040
+dort findet ihr Links zu weiteren Infos.
+
+123
+00:05:56.580 --> 00:05:58.420
+Und meldet euch für unseren Newsletter an:
+
+124
+00:05:58.420 --> 00:06:01.440
+g.co/a11y/news oder über den Link
+
+125
+00:06:01.440 --> 00:06:04.800
+in der Videobeschreibung.
+
+126
+00:06:06.460 --> 00:06:07.280
+Bis bald!

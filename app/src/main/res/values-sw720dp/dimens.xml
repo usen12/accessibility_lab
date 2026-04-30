@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Large tablet dimensions (10-inch and larger) -->
+    <dimen name="padding_small">20dp</dimen>
+    <dimen name="padding_medium">32dp</dimen>
+    <dimen name="padding_large">40dp</dimen>
+    <dimen name="padding_xlarge">56dp</dimen>
+    
+    <dimen name="margin_small">20dp</dimen>
+    <dimen name="margin_medium">32dp</dimen>
+    <dimen name="margin_large">40dp</dimen>
+    
+    <dimen name="button_height">80dp</dimen>
+    <dimen name="card_elevation">12dp</dimen>
+    <dimen name="card_corner_radius">24dp</dimen>
+    
+    <dimen name="text_size_small">18sp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_xlarge">26sp</dimen>
+    <dimen name="text_size_headline">36sp</dimen>
+    
+    <dimen name="max_content_width">1000dp</dimen>
+</resources> 

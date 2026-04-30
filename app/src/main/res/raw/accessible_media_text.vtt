@@ -1,0 +1,617 @@
+WEBVTT
+
+1
+00:00:01.480 --> 00:00:03.740
+What's new in accessibility at Google?
+
+2
+00:00:05.260 --> 00:00:07.860
+Hi everyone, it's Laura Allen again, Head of
+
+3
+00:00:07.860 --> 00:00:10.860
+Strategy and Programs for Accessibility and Disability Inclusion
+
+4
+00:00:10.860 --> 00:00:11.320
+here at Google.
+
+5
+00:00:11.980 --> 00:00:14.260
+Welcome back to another episode of What's New
+
+6
+00:00:14.260 --> 00:00:16.760
+in Google Accessibility, a series where we share
+
+7
+00:00:16.760 --> 00:00:18.760
+new ways that we're making our products and
+
+8
+00:00:18.760 --> 00:00:20.820
+features more accessible for everyone.
+
+9
+00:00:21.360 --> 00:00:23.800
+In this episode, we'll talk about accessibility updates
+
+10
+00:00:23.800 --> 00:00:27.200
+coming to products like Chrome OS, Android, Workspace,
+
+11
+00:00:27.320 --> 00:00:27.720
+and more.
+
+12
+00:00:28.120 --> 00:00:30.260
+So let's jump into it, starting with text
+
+13
+00:00:30.260 --> 00:00:31.360
+-to-speech in Chrome OS.
+
+14
+00:00:34.500 --> 00:00:37.320
+Earlier this year, we added new, more natural
+
+15
+00:00:37.320 --> 00:00:39.580
+-sounding text-to-speech voices to Chrome OS,
+
+16
+00:00:40.000 --> 00:00:41.860
+so people now have a variety of different
+
+17
+00:00:41.860 --> 00:00:43.680
+voices and languages to choose from.
+
+18
+00:00:48.200 --> 00:00:50.560
+Text-to-speech allows users to hear text
+
+19
+00:00:50.560 --> 00:00:51.720
+on their screen read aloud.
+
+20
+00:00:52.420 --> 00:00:54.560
+This functionality can be helpful for individuals who
+
+21
+00:00:54.560 --> 00:00:57.140
+have visual impairments, like me, or those who
+
+22
+00:00:57.140 --> 00:00:59.240
+prefer to listen to content rather than read
+
+23
+00:00:59.240 --> 00:00:59.400
+it.
+
+24
+00:00:59.980 --> 00:01:01.780
+The new voice options can be used with
+
+25
+00:01:01.780 --> 00:01:04.760
+ChromeVox, Chromebook's built-in screen reader, as well
+
+26
+00:01:04.760 --> 00:01:07.040
+as select-to-speak, which allows for desired
+
+27
+00:01:07.040 --> 00:01:08.720
+portions of pages to be read aloud.
+
+28
+00:01:11.970 --> 00:01:14.070
+In Android news, we have a few exciting
+
+29
+00:01:14.070 --> 00:01:14.530
+updates.
+
+30
+00:01:15.230 --> 00:01:17.970
+First, we created a video tutorial series that
+
+31
+00:01:17.970 --> 00:01:20.210
+offers tips for how to leverage some of
+
+32
+00:01:20.210 --> 00:01:23.310
+our accessibility features and personalize your Android device
+
+33
+00:01:23.310 --> 00:01:24.450
+based on your disability.
+
+34
+00:01:25.290 --> 00:01:27.670
+For example, here's a clip from our video
+
+35
+00:01:27.670 --> 00:01:30.630
+How to Navigate Your Phone Using Facial Gestures.
+
+36
+00:01:30.910 --> 00:01:33.290
+We take a look at Camera Switches and
+
+37
+00:01:33.290 --> 00:01:36.310
+Project Activate, two features that can help people
+
+38
+00:01:36.310 --> 00:01:38.550
+use their phones through eye movements and facial
+
+39
+00:01:38.550 --> 00:01:38.950
+gestures.
+
+40
+00:01:39.770 --> 00:01:42.390
+Also in Android news, we've made some major
+
+41
+00:01:42.390 --> 00:01:44.810
+updates to Lookout, our app that uses your
+
+42
+00:01:44.810 --> 00:01:47.810
+phone's camera to read text, find objects, and
+
+43
+00:01:47.810 --> 00:01:48.070
+more.
+
+44
+00:01:48.930 --> 00:01:51.470
+This spring, we launched selfie and capture buttons
+
+45
+00:01:51.470 --> 00:01:53.810
+for Images Mode, which lets users take a
+
+46
+00:01:53.810 --> 00:01:56.430
+photo with Lookout and hear AI-generated descriptions
+
+47
+00:01:56.430 --> 00:01:57.990
+of whatever they've photographed.
+
+48
+00:01:58.930 --> 00:02:01.250
+Like in this example, we've taken a landscape
+
+49
+00:02:01.250 --> 00:02:04.110
+photo, and Lookout will describe the hills, river,
+
+50
+00:02:04.370 --> 00:02:05.630
+and hot air balloon in the sky.
+
+51
+00:02:07.229 --> 00:02:09.009
+In this picture, we can see the hills
+
+52
+00:02:09.009 --> 00:02:09.729
+and there is a river.
+
+53
+00:02:09.970 --> 00:02:11.330
+We can see a balloon in the air,
+
+54
+00:02:11.370 --> 00:02:12.770
+and in the background, we can see the
+
+55
+00:02:12.770 --> 00:02:13.590
+sky with clouds.
+
+56
+00:02:14.450 --> 00:02:17.090
+In May, we added Find Mode to Lookout's
+
+57
+00:02:17.090 --> 00:02:19.910
+set of features, which lets users locate specific
+
+58
+00:02:19.910 --> 00:02:22.110
+objects by selecting them from a drop-down
+
+59
+00:02:22.110 --> 00:02:22.410
+list.
+
+60
+00:02:22.930 --> 00:02:24.910
+We also made improvements to the quality of
+
+61
+00:02:24.910 --> 00:02:27.910
+Lookout's optical character recognition, which means that the
+
+62
+00:02:27.910 --> 00:02:30.530
+app can more easily identify text and handwritten
+
+63
+00:02:30.530 --> 00:02:32.990
+words while it's in Text or Images Mode.
+
+64
+00:02:33.670 --> 00:02:35.970
+Dear Gabriel, thanks so much for your thoughtful
+
+65
+00:02:35.970 --> 00:02:36.330
+gift.
+
+66
+00:02:36.770 --> 00:02:38.390
+It was great seeing you last week.
+
+67
+00:02:38.770 --> 00:02:40.190
+Hope we can do it again soon.
+
+68
+00:02:40.830 --> 00:02:41.930
+ZoXo, Aiden.
+
+69
+00:02:42.390 --> 00:02:45.370
+And we introduced Happiness Tracking Surveys to Lookout
+
+70
+00:02:45.370 --> 00:02:47.910
+so users can easily share their feedback directly
+
+71
+00:02:47.910 --> 00:02:48.530
+in the app.
+
+72
+00:02:48.970 --> 00:02:50.810
+We definitely encourage you to share your thoughts.
+
+73
+00:02:54.740 --> 00:02:56.780
+Workspace is also an area where we've been
+
+74
+00:02:56.780 --> 00:02:59.380
+rolling out lots of accessibility features, like in
+
+75
+00:02:59.380 --> 00:02:59.780
+Google Meet.
+
+76
+00:03:00.320 --> 00:03:02.740
+Up until recently, one of the common ways
+
+77
+00:03:02.740 --> 00:03:04.680
+people asked a question in Meet was by
+
+78
+00:03:04.680 --> 00:03:07.200
+clicking on the hand-raise icon or typing
+
+79
+00:03:07.200 --> 00:03:07.920
+a keyboard shortcut.
+
+80
+00:03:08.660 --> 00:03:10.640
+Now, there's a feature in Settings that lets
+
+81
+00:03:10.640 --> 00:03:12.360
+you raise your physical hand when you want
+
+82
+00:03:12.360 --> 00:03:12.760
+to speak.
+
+83
+00:03:13.320 --> 00:03:15.260
+Google Meet will recognize it with gesture detection
+
+84
+00:03:15.260 --> 00:03:16.940
+and notify all meeting participants.
+
+85
+00:03:17.880 --> 00:03:20.220
+We also updated our layout options in Google
+
+86
+00:03:20.220 --> 00:03:22.300
+Meet so users can customize what they see
+
+87
+00:03:22.300 --> 00:03:22.980
+on their screens.
+
+88
+00:03:23.640 --> 00:03:25.420
+This option can be great for people who
+
+89
+00:03:25.420 --> 00:03:27.920
+want to reduce screen clutter and see only
+
+90
+00:03:27.920 --> 00:03:30.200
+participants with their video feeds shown.
+
+91
+00:03:31.340 --> 00:03:33.820
+For Google Drive, we're excited to announce that
+
+92
+00:03:33.820 --> 00:03:36.920
+Drive's web application now supports First Letters Navigation,
+
+93
+00:03:37.420 --> 00:03:39.620
+a method for quickly finding files and folders.
+
+94
+00:03:40.620 --> 00:03:42.860
+First Letters Navigation is useful for anyone who
+
+95
+00:03:42.860 --> 00:03:45.100
+depends on or prefers to use a keyboard,
+
+96
+00:03:45.580 --> 00:03:46.720
+including screen reader users.
+
+97
+00:03:46.720 --> 00:03:49.320
+If a user wants to locate a document
+
+98
+00:03:49.320 --> 00:03:52.820
+they've titled Leadership and Organization, for example, instead
+
+99
+00:03:52.820 --> 00:03:55.400
+of navigating with arrow keys, they would type
+
+100
+00:03:55.400 --> 00:03:57.260
+the first letter of the file, in this
+
+101
+00:03:57.260 --> 00:03:59.720
+case, L, and Drive would jump to the
+
+102
+00:03:59.720 --> 00:04:01.280
+first item that begins with that letter.
+
+103
+00:04:04.130 --> 00:04:06.450
+Also, in Drive on web, users can now
+
+104
+00:04:06.450 --> 00:04:08.830
+update their setting to dark mode, which creates
+
+105
+00:04:08.830 --> 00:04:10.810
+a darker background with light text.
+
+106
+00:04:11.270 --> 00:04:13.310
+For some people, this can make visuals clearer
+
+107
+00:04:13.310 --> 00:04:14.630
+while reducing eyestrain.
+
+108
+00:04:16.130 --> 00:04:19.230
+In Google Calendar, we're replacing the Appointment Slots
+
+109
+00:04:19.230 --> 00:04:22.330
+feature with a more accessible and improved Appointments
+
+110
+00:04:22.330 --> 00:04:23.230
+Schedule option.
+
+111
+00:04:23.830 --> 00:04:26.750
+With Appointments Schedules, you can create and share
+
+112
+00:04:26.750 --> 00:04:28.670
+booking pages so people can book time with
+
+113
+00:04:28.670 --> 00:04:31.550
+you, and you can view booked appointments alongside
+
+114
+00:04:31.550 --> 00:04:32.930
+your schedule in Google Calendar.
+
+115
+00:04:34.230 --> 00:04:36.950
+And lastly, since we retired our Gmail HTML
+
+116
+00:04:36.950 --> 00:04:39.450
+view for desktop and mobile web, we've released
+
+117
+00:04:39.450 --> 00:04:41.290
+a guide so that screen reader users can
+
+118
+00:04:41.290 --> 00:04:43.690
+successfully make the switch from HTML to standard
+
+119
+00:04:43.690 --> 00:04:43.970
+view.
+
+120
+00:04:44.270 --> 00:04:45.810
+Definitely check it out if you haven't already.
+
+121
+00:04:50.340 --> 00:04:52.740
+In Google Maps news, we're really excited to
+
+122
+00:04:52.740 --> 00:04:55.300
+have released Detailed Voice Guidance Worldwide.
+
+123
+00:04:56.280 --> 00:04:58.740
+Detailed Voice Guidance originally rolled out in 2019,
+
+124
+00:04:59.400 --> 00:05:01.640
+giving people the ability to receive more guidance
+
+125
+00:05:01.640 --> 00:05:03.760
+and verbal announcements for walking trips.
+
+126
+00:05:04.600 --> 00:05:06.520
+Here's a clip of Wakana using the feature
+
+127
+00:05:06.520 --> 00:05:08.080
+as she navigates the streets of Tokyo.
+
+128
+00:05:08.960 --> 00:05:10.740
+Detailed Voice Guidance confirms if someone is on
+
+129
+00:05:10.740 --> 00:05:13.120
+the correct routes, the distance until their next
+
+130
+00:05:13.120 --> 00:05:15.640
+turn, or if they're approaching a busy intersection.
+
+131
+00:05:16.600 --> 00:05:18.280
+This feature has been a game-changer for
+
+132
+00:05:18.280 --> 00:05:20.840
+me personally, especially when on unfamiliar routes.
+
+133
+00:05:21.440 --> 00:05:23.620
+And it's helpful for anyone who can't easily
+
+134
+00:05:23.620 --> 00:05:24.920
+look at their phone while walking.
+
+135
+00:05:25.460 --> 00:05:27.820
+We consider it a virtual curb cut that
+
+136
+00:05:27.820 --> 00:05:28.960
+benefits many people.
+
+137
+00:05:29.520 --> 00:05:31.680
+Previously, the feature was only available in English
+
+138
+00:05:31.680 --> 00:05:33.840
+in the United States and Japanese in Japan.
+
+139
+00:05:34.520 --> 00:05:36.880
+Now, users anywhere in the world can use
+
+140
+00:05:36.880 --> 00:05:39.440
+Detailed Voice Guidance in all languages that Maps
+
+141
+00:05:39.440 --> 00:05:39.860
+supports.
+
+142
+00:05:40.900 --> 00:05:43.220
+Thanks for tuning in to another episode of
+
+143
+00:05:43.220 --> 00:05:44.780
+What's New in Google Accessibility.
+
+144
+00:05:45.500 --> 00:05:47.140
+We hope you've enjoyed learning about some of
+
+145
+00:05:47.140 --> 00:05:49.740
+our recent efforts to improve our accessibility products
+
+146
+00:05:49.740 --> 00:05:50.340
+and features.
+
+147
+00:05:51.160 --> 00:05:52.720
+Be sure to check out our YouTube video
+
+148
+00:05:52.720 --> 00:05:55.040
+notes, where we've linked to more details about
+
+149
+00:05:55.040 --> 00:05:55.940
+many of these updates.
+
+150
+00:05:56.580 --> 00:05:58.420
+If you want to learn more, sign up
+
+151
+00:05:58.420 --> 00:06:01.440
+for our accessibility newsletter at g.co slash
+
+152
+00:06:01.440 --> 00:06:04.800
+a11y slash news, or by clicking the link
+
+153
+00:06:04.800 --> 00:06:05.880
+in the description of this video.
+
+154
+00:06:06.460 --> 00:06:07.280
+Bye for now!

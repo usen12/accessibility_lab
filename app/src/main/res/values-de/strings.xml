@@ -1,0 +1,601 @@
+<resources>
+    <string name="app_name">Access Lab</string>
+    
+    <!-- Quiz Screen Strings -->
+    <string name="quiz_question_progress">Frage %1$d von %2$d</string>
+    <string name="quiz_question_label">Frage %1$d</string>
+    <string name="quiz_loading_question">Lade Frage…</string>
+    <string name="quiz_next_question">Nächste Frage</string>
+    <string name="quiz_finish_quiz">Quiz beenden</string>
+    <string name="quiz_select_answer_hint">Bitte wählen Sie eine Antwort</string>
+    <string name="quiz_select_answer_hint_long">Bitte wählen Sie mindestens eine Antwort, um fortzufahren</string>
+    
+    <!-- Content Descriptions for Accessibility -->
+    <string name="cd_quiz_question_text">Fragentext: %1$s</string>
+    <string name="cd_quiz_answer_option">Antwortoption: %1$s</string>
+    <string name="cd_quiz_answer_option_with_state">Antwortoption: %1$s, %2$s</string>
+    <string name="cd_quiz_answer_selected">ausgewählt</string>
+    <string name="cd_quiz_answer_not_selected">nicht ausgewählt</string>
+    <string name="cd_quiz_next_button">Nächste Frage Button</string>
+    <string name="cd_quiz_finish_button">Quiz beenden Button</string>
+    
+    <!-- Quiz Results Screen Strings -->
+    <string name="quiz_results_title">Ergebnisse</string>
+    <string name="quiz_results_congratulations">Glückwunsch!</string>
+    <string name="quiz_results_completed">Quiz abgeschlossen</string>
+    <string name="quiz_results_topics_to_review">Themen zum Wiederholen</string>
+    <string name="quiz_results_passed_message">Gut gemacht! Sie haben ein gutes Verständnis der Barrierefreiheit-Prinzipien.</string>
+    <string name="quiz_results_failed_message">Weiter lernen! Wiederholen Sie die Barrierefreiheit-Richtlinien und versuchen Sie es erneut.</string>
+    <string name="quiz_results_retake_button">Quiz wiederholen</string>
+    <string name="quiz_results_home_button">Zurück zur Startseite</string>
+    
+    <!-- Quiz Results Content Descriptions -->
+    <string name="cd_quiz_results_title">Quiz-Ergebnis-Screen</string>
+    <string name="cd_quiz_results_summary">Quiz-Ergebniszusammenfassung</string>
+    <string name="cd_quiz_results_passed">Quiz bestanden</string>
+    <string name="cd_quiz_results_completed">Quiz abgeschlossen, Wiederholung empfohlen</string>
+    <string name="cd_quiz_results_score">Sie haben %1$d von %2$d Fragen richtig beantwortet</string>
+    <string name="cd_quiz_results_percentage">Ihr Ergebnis in Prozent ist %1$.1f Prozent</string>
+    <string name="cd_quiz_results_progress">Ihre Quiz-Leistung ist %1$.1f Prozent</string>
+    <string name="cd_quiz_results_topics_review">Themen, die Sie wiederholen sollten</string>
+    <string name="cd_quiz_results_review_question">Frage wiederholen: %1$s</string>
+    <string name="cd_quiz_results_retake_button">Barrierefreiheit-Quiz wiederholen</string>
+    <string name="cd_quiz_results_home_button">Zurück zum Home-Screen</string>
+    
+    <!-- Home Screen Strings -->
+    <string name="home_start_quiz_button">Quiz starten</string>
+    <string name="home_see_results_button">Einstellungen</string>
+    
+    <!-- Content Descriptions for Home Screen -->
+    <string name="cd_home_start_quiz_button">Quiz starten Button</string>
+    <string name="cd_home_see_results_button">Einstellungen öffnen Button</string>
+    <string name="cd_home_access_lab_image">Accessibility Lab Illustration</string>
+    <string name="cd_home_notes_carousel">Notizen-Karussell-Bereich mit aktuellen Notizen</string>
+    <string name="cd_home_action_buttons">Hauptaktions-Buttons-Bereich</string>
+    
+    <!-- Notes Carousel Strings -->
+    <string name="notes_carousel_title">Aktuelle Notizen</string>
+    <string name="notes_learn_more">Mehr erfahren...</string>
+    <string name="notes_empty_state">Noch keine Notizen verfügbar</string>
+    <string name="notes_placeholder_text">Beispielnotiz %1$d</string>
+    
+    <!-- Notes Carousel Content Descriptions -->
+    <string name="cd_notes_carousel_container">Notizen-Karussell-Bereich</string>
+    <string name="cd_notes_carousel_title">Aktuelle Notizen Bereichstitel</string>
+    <string name="cd_notes_carousel_scrollable">Scrollbare Notizenliste</string>
+    <string name="cd_notes_loading">Notizen werden geladen</string>
+    <string name="cd_notes_empty_state">Keine Notizen verfügbar Nachricht</string>
+    <string name="cd_note_item">Notiz: %1$s</string>
+    <string name="cd_note_placeholder">Beispielnotiz: %1$s</string>
+    <string name="cd_notes_learn_more_button">Mehr über Notizen erfahren</string>
+    
+    <!-- Settings Screen Strings -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="app_settings_heading">App-Einstellungen</string>
+    <string name="profile_placeholder">Nächste Schritte: Profilansicht, E-Mail des Benutzers, Einstellungen, Richtlinien</string>
+    <string name="profile_picture_label">Profilbild</string>
+    <string name="profile_add_picture">Profilbild hinzufügen</string>
+    <string name="profile_change_picture">Profilbild ändern</string>
+    <string name="profile_picture_placeholder">Profilbild Platzhalter</string>
+    <string name="profile_user_info">Benutzerinformationen</string>
+    <string name="profile_email_label">E-Mail</string>
+    <string name="profile_email_placeholder">Geben Sie Ihre E-Mail ein</string>
+    <string name="profile_name_label">Name</string>
+    <string name="profile_name_placeholder">Geben Sie Ihren Namen ein</string>
+    <string name="profile_bio_label">Biografie</string>
+    <string name="profile_bio_placeholder">Erzählen Sie uns von sich</string>
+    <string name="profile_bio_hint">Teilen Sie eine kurze Beschreibung über sich</string>
+    <string name="profile_save_button">Änderungen speichern</string>
+    <string name="profile_settings_section">Einstellungen</string>
+    <string name="profile_accessibility_settings">Barrierefreiheit-Einstellungen</string>
+    <string name="profile_logout_button">Abmelden</string>
+    <string name="profile_save_success">Profil erfolgreich aktualisiert!</string>
+    <string name="profile_tap_to_change">Tippen zum Ändern</string>
+    <string name="profile_tap_to_add">Foto hinzufügen</string>
+    <string name="profile_add_name">Ihren Namen hinzufügen</string>
+    <string name="profile_add_bio">Ihre Biografie hinzufügen</string>
+    <string name="profile_anonymous_user">Anonymer Benutzer</string>
+    <string name="profile_not_signed_in">Nicht angemeldet</string>
+    <string name="profile_edit_name">Namen bearbeiten</string>
+    <string name="profile_edit_bio">Biografie bearbeiten</string>
+    <string name="profile_save_name">Namen speichern</string>
+    <string name="profile_cancel_editing">Bearbeitung abbrechen</string>
+    <string name="profile_remove_picture">Bild entfernen</string>
+    <string name="profile_choose_option">Wählen Sie eine Option für Ihr Profilbild</string>
+    
+    <!-- Content Descriptions for Profile Screen -->
+    <string name="cd_profile_picture">Profilbild von %1$s</string>
+    <string name="cd_profile_picture_add">Profilbild hinzufügen</string>
+    <string name="cd_profile_picture_change">Profilbild ändern</string>
+    <string name="cd_profile_name_field">Namensfeld</string>
+    <string name="cd_profile_bio_field">Biografie-Feld</string>
+    <string name="cd_profile_email_field">E-Mail-Feld</string>
+    <string name="cd_profile_save_button">Profiländerungen speichern</string>
+    <string name="cd_profile_logout_button">Vom Konto abmelden</string>
+    <string name="cd_profile_settings_item">%1$s Einstellungsoption</string>
+    <string name="cd_profile_save_name">Namen speichern</string>
+
+    <!-- Accessibility Settings Strings -->
+    <string name="accessibility_settings_title">Barrierefreiheit-Einstellungen</string>
+    <string name="accessibility_visual_title">Visuelle Barrierefreiheit</string>
+    <string name="accessibility_interaction_title">Interaktions-Barrierefreiheit</string>
+    
+    <!-- Visual Accessibility Settings -->
+    <string name="accessibility_dark_mode">Dunkler Modus</string>
+    <string name="accessibility_dark_mode_desc">Verwenden Sie das dunkle Theme für besseren Kontrast und weniger Augenbelastung</string>
+    <string name="accessibility_high_contrast">Hoher Kontrast</string>
+    <string name="accessibility_high_contrast_desc">Kontrast erhöhen für bessere Sichtbarkeit</string>
+    <string name="accessibility_large_text">Großer Text</string>
+    <string name="accessibility_large_text_desc">Textgröße für bessere Lesbarkeit erhöhen</string>
+    <string name="accessibility_font_scale">Schriftgröße</string>
+    <string name="accessibility_font_scale_desc">Textgröße für bessere Lesbarkeit anpassen</string>
+    <string name="accessibility_font_scale_small">Klein (85%)</string>
+    <string name="accessibility_font_scale_medium">Mittel (100%)</string>
+    <string name="accessibility_font_scale_large">Groß (125%)</string>
+    <string name="accessibility_font_scale_extra_large">Sehr groß (150%)</string>
+    <string name="accessibility_font_scale_maximum">Maximum (200%)</string>
+    <string name="accessibility_font_scale_dialog_title">Schriftgröße wählen</string>
+    <string name="accessibility_font_scale_dialog_desc">Wählen Sie Ihre bevorzugte Textgröße</string>
+    <string name="accessibility_font_scale_preview">Vorschau Text</string>
+    <string name="accessibility_font_scale_system">System-Standard</string>
+    <string name="accessibility_font_scale_system_desc">System-Schriftgröße-Einstellung verwenden</string>
+    <string name="accessibility_font_scale_reset">Auf System zurücksetzen</string>
+        <string name="accessibility_font_scale_reset_desc">Auf System-Schriftgröße-Einstellung zurücksetzen</string>
+    
+    <!-- Font Scale Descriptions -->
+    <string name="accessibility_font_scale_small_desc">Klein (85%)</string>
+    <string name="accessibility_font_scale_medium_desc">Mittel (100%)</string>
+    <string name="accessibility_font_scale_large_desc">Groß (125%)</string>
+    <string name="accessibility_font_scale_extra_large_desc">Sehr groß (150%)</string>
+    <string name="accessibility_font_scale_maximum_desc">Maximum (200%)</string>
+    
+    <!-- Font Scale Preview -->
+    <string name="accessibility_font_scale_preview_heading">Beispiel-Überschrift</string>
+    <string name="accessibility_font_scale_preview_body">So wird Ihr App-Text mit der ausgewählten Schriftgröße aussehen. Der Text wird leichter zu lesen und zugänglicher für Benutzer mit verschiedenen Sehbedürfnissen sein.</string>
+    <string name="accessibility_font_scale_preview_sample">Dies ist ein Beispiel für %1$s Text.</string>
+    <string name="accessibility_font_scale_preview_label">Beispiel-Label-Text</string>
+    
+    <!-- State Descriptions -->
+    <string name="accessibility_state_selected">ausgewählt</string>
+    <string name="accessibility_state_not_selected">nicht ausgewählt</string>
+    
+    <!-- Note Screen Titles -->
+    <string name="note_add_title">Notiz hinzufügen</string>
+    <string name="note_edit_title">Notiz bearbeiten</string>
+    <string name="note_protected_title">Geschützte Notiz (Nur Lesen)</string>
+    
+    <!-- Note Content Descriptions -->
+    <string name="cd_note_back_button">Zurück</string>
+    
+    <!-- Note Action Strings -->
+    <string name="note_done_button">Fertig</string>
+    <string name="cd_note_done_button">Fertig Button</string>
+    
+    <!-- Note Info Messages -->
+    <string name="note_protected_info_message">Dies ist eine geschützte Notiz und kann nicht bearbeitet werden</string>
+    <string name="cd_note_protected_info_message">Geschützte Notiz Informationsnachricht</string>
+    <string name="cd_note_protected_icon">Geschützte Notiz Symbol</string>
+    
+    <!-- Note Created Time Label -->
+    <string name="note_created_time_label">Erstellt: %1$s</string>
+    <string name="cd_note_created_time">Notiz-Erstellungszeit</string>
+    
+    <!-- Note Protected Badge -->
+    <string name="note_protected_badge">Geschützte Notiz</string>
+    <string name="cd_note_protected_badge">Geschützte Notiz Badge</string>
+    
+    <!-- Note Input Labels -->
+    <string name="note_input_label">Notiz</string>
+    <string name="cd_note_input">Notiz Eingabe</string>
+    <string name="cd_note_protected_content">Geschützte Notiz Inhalt (Nur Lesen)</string>
+    
+    <!-- Note Empty State Messages -->
+    <string name="note_empty_state_message">Noch keine Notizen. Tippen Sie auf +, um eine hinzuzufügen.</string>
+    <string name="cd_note_empty_state_message">Leere Notizenliste Nachricht</string>
+    
+    <!-- Note Action Messages -->
+    <string name="note_add_action">Notiz hinzufügen</string>
+    <string name="cd_note_add_action">Notiz hinzufügen Button</string>
+    <string name="note_delete_action">Notiz löschen</string>
+    <string name="cd_note_delete_action">Notiz löschen Button</string>
+    <string name="note_delete_dialog_title">Notiz löschen</string>
+    <string name="note_delete_dialog_message">Sind Sie sicher, dass Sie diese Notiz löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="note_delete_dialog_confirm">Löschen</string>
+    <string name="note_delete_dialog_cancel">Abbrechen</string>
+    
+    <!-- Note View Messages -->
+    <string name="note_view_item">Notiz Element anzeigen</string>
+    <string name="note_view_protected">Geschützte Notiz anzeigen: %1$s</string>
+    
+    <!-- Note List Messages -->
+    <string name="notes_list">Notizen Liste</string>
+    <string name="cd_notes_list">Notizenliste Container</string>
+    
+    <!-- Quiz True/False Answer Options -->
+    <string name="quiz_answer_true">Wahr</string>
+    <string name="quiz_answer_false">Falsch</string>
+    <string name="cd_quiz_answer_true">Wahr Antwortoption</string>
+    <string name="cd_quiz_answer_false">Falsch Antwortoption</string>
+    
+    <!-- Motion Actuation Description -->
+    <string name="motion_actuation_description">Bewegungssteuerung ermöglicht es Ihnen, Aktionen durch Schütteln Ihres Geräts auszuführen. Diese Funktion kann in den Barrierefreiheit-Einstellungen aktiviert oder deaktiviert werden. Wenn aktiviert, können Sie schütteln, um einen neuen Notiz-Screen zu öffnen, und erneut schütteln, um die Notiz zu speichern. Alternative Methoden sind immer über Standard-UI-Steuerelemente verfügbar.</string>
+    <string name="cd_motion_actuation_description">Bewegungssteuerung Funktionsbeschreibung</string>
+    <string name="accessibility_motion_actuation_desc">Schüttel-Geste aktivieren, um neuen Notiz-Screen zu öffnen und Notizen zu speichern</string>
+    
+    <!-- Interaction Accessibility Settings -->
+
+    
+
+    
+    <!-- Accessibility State Strings -->
+    <string name="accessibility_on">an</string>
+    <string name="accessibility_off">aus</string>
+    
+    <!-- Accessibility Prompt -->
+    <string name="accessibility_enable_prompt">Aktivieren Sie Barrierefreiheit-Dienste für eine bessere Erfahrung mit Screenreadern und anderen Hilfstechnologien</string>
+    <string name="cd_accessibility_prompt">Barrierefreiheit-Dienste Aufforderung</string>
+    <string name="cd_accessibility_prompt_dismiss">Barrierefreiheit-Aufforderung schließen</string>
+    
+    <!-- Content Descriptions for Accessibility Settings -->
+    <string name="cd_accessibility_back_button">Zurück zum Profil</string>
+    <string name="cd_accessibility_toggle">%1$s Schalter, %2$s</string>
+    <string name="cd_dark_mode_toggle">Dunkler Modus Schalter, %1$s</string>
+    <string name="cd_theme_switch">Theme-Schalter</string>
+    <string name="cd_high_contrast_toggle">Hoher Kontrast Schalter, %1$s</string>
+    
+    <!-- Theme and Accessibility Messages -->
+    <string name="theme_light_mode">Heller Modus</string>
+    <string name="theme_dark_mode">Dunkler Modus</string>
+    <string name="theme_system_mode">System-Theme</string>
+    <string name="theme_changed_to_light">Zu hellem Modus gewechselt</string>
+    <string name="theme_changed_to_dark">Zu dunklem Modus gewechselt</string>
+    <string name="theme_following_system">Folgt System-Theme</string>
+    
+    <!-- Video Screen Strings -->
+    <string name="library_page_title">Bibliothek</string>
+    <string name="video_page_coming_soon">Video-Inhalte kommen bald!</string>
+    <string name="video_search_placeholder">Nach Barrierefreiheit-Videos suchen...</string>
+    <string name="video_search_icon">Suchsymbol</string>
+    <string name="video_clear_search">Suche löschen</string>
+    <string name="video_error_title">Fehler beim Laden der Videos</string>
+    <string name="video_retry_button">Wiederholen</string>
+    <string name="video_empty_title">Keine Videos gefunden</string>
+    <string name="video_empty_message">Versuchen Sie, nach anderen Schlüsselwörtern zu suchen</string>
+    
+    <!-- Video Library Content Descriptions -->
+    <string name="cd_video_search_field">Videos suchen Textfeld</string>
+    <string name="cd_video_clear_search">Suchtext löschen</string>
+    <string name="cd_video_loading">Videos werden geladen</string>
+    <string name="cd_video_error">Fehler beim Laden der Videos aufgetreten</string>
+    <string name="cd_video_retry">Videos erneut laden</string>
+    <string name="cd_video_empty">Keine Videos gefunden</string>
+    <string name="cd_video_empty_message">Versuchen Sie, nach anderen Schlüsselwörtern zu suchen</string>
+    <string name="cd_featured_video_card">Empfohlenes Video-Karte</string>
+    <string name="cd_video_thumbnail">Video-Vorschaubild</string>
+    <string name="cd_video_duration">Video-Dauer: %1$s</string>
+    <string name="cd_video_title">Video-Titel: %1$s</string>
+    <string name="cd_video_channel">Kanal: %1$s</string>
+    <string name="cd_video_views_published">Aufrufe: %1$s, Veröffentlicht: %2$s</string>
+    
+    <!-- Featured Video Content -->
+    <string name="featured_video_title">Barrierefreiheit-Grundlagen - Die Grundlagen verstehen</string>
+    <string name="featured_video_description">Lernen Sie die grundlegenden Prinzipien der Barrierefreiheit und warum sie für alle Benutzer wichtig sind.</string>
+    <string name="featured_video_fallback_title">Was ist neu bei Barrierefreiheit bei Google</string>
+    <string name="accessibility_lab_channel">Accessibility Lab</string>
+    <string name="featured_video_duration">15:30</string>
+    <string name="featured_video_views">12,5K Aufrufe</string>
+    
+    <!-- TopBar Titles -->
+    <string name="home_topbar_title">Startseite</string>
+    <string name="notes_topbar_title">Notizen</string>
+    <string name="quiz_topbar_title">Quiz</string>
+    
+    <!-- TopBar Content Descriptions -->
+    <string name="cd_home_topbar">Home-Screen Titel</string>
+    <string name="cd_notes_topbar">Notizen-Screen Titel</string>
+    <string name="cd_library_topbar">Bibliothek-Screen Titel</string>
+    <string name="cd_quiz_topbar">Quiz-Screen Titel</string>
+    <string name="cd_quiz_page">Quiz-Screen, Frage %1$d von %2$d. Nach links wischen für nächste Frage, nach rechts wischen für vorherige Frage.</string>
+    <string name="cd_settings_topbar">Einstellungen-Screen Titel</string>
+    
+    <!-- Language Settings -->
+    <string name="language_settings_title">Spracheinstellungen</string>
+    <string name="language_system_default">System-Standard</string>
+    <string name="language_english">Englisch</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_select_title">Sprache auswählen</string>
+    <string name="language_select_description">Wählen Sie Ihre bevorzugte Sprache. Die App folgt automatisch Ihrer Gerätesprache als Standard.</string>
+    <string name="language_restart_required">App-Neustart erforderlich</string>
+    <string name="language_restart_message">Die Sprache wurde geändert. Ein Neustart der App ist erforderlich, um alle Änderungen zu übernehmen.</string>
+    <string name="language_restart_now">Jetzt neu starten</string>
+    <string name="language_restart_later">Später</string>
+    
+    <!-- Language Information Section -->
+    <string name="language_info_title">Sprachinformationen</string>
+    <string name="language_info_bullet_1">• Sprachänderungen werden sofort auf neuen Text angewendet</string>
+    <string name="language_info_bullet_2">• Einige Elemente erfordern möglicherweise einen App-Neustart</string>
+    <string name="language_info_bullet_3">• System-Standard folgt automatisch Ihren Geräte-Spracheinstellungen</string>
+    <string name="language_info_bullet_4">• Alle Barrierefreiheits-Funktionen funktionieren mit allen Sprachen</string>
+    <string name="language_info_bullet_5">• Keine manuelle Sprachauswahl erforderlich - die App passt sich Ihrem Gerät an</string>
+    
+    <!-- Video Player Caption Language -->
+    <string name="video_player_caption_language_english">Englisch</string>
+    <string name="video_player_caption_language_german">Deutsch</string>
+    <string name="video_player_caption_language_off">Aus</string>
+    <string name="video_player_caption_language_menu">Untertitelsprache</string>
+    <string name="video_player_caption_language_menu_desc">Untertitelsprache auswählen</string>
+    <string name="cd_video_player_caption_language_menu">Untertitelsprache-Auswahlmenü</string>
+    <string name="cd_video_player_caption_language_english">Englische Untertitel</string>
+    <string name="cd_video_player_caption_language_german">Deutsche Untertitel</string>
+    <string name="cd_video_player_caption_language_off">Untertitel ausschalten</string>
+    <string name="cd_video_player_caption_language_select">Untertitelsprache auswählen</string>
+    <string name="cd_video_player_caption_language_enable">Untertitel einschalten</string>
+    <string name="cd_video_player_caption_language_disable">Untertitel ausschalten</string>
+    <string name="cd_video_player_caption_language_no_subtitles">Keine Untertitel verfügbar</string>
+    <string name="cd_video_player_caption_language_subtitles_available">Untertitel verfügbar</string>
+    <string name="cd_video_player_caption_language_subtitles_not_available">Untertitel nicht verfügbar</string>
+    <string name="cd_video_player_caption_language_captions_enabled">Untertitel aktiviert</string>
+    <string name="cd_video_player_caption_language_captions_disabled">Untertitel deaktiviert</string>
+    
+    <!-- Quiz Questions - EN 301 549 Accessibility Standards -->
+    <!-- Question 1: True/False about keyboard interface -->
+    <string name="quiz_question_1">Bei der Barrierefreiheitsprüfung von Android-Apps gemäß EN 301 549 muss jede Funktionalität über eine Tastaturschnittstelle bedienbar sein.</string>
+    
+    <!-- Question 2: True/False about text alternatives for images -->
+    <string name="quiz_question_2">Nach EN 301 549 ist die Bereitstellung von Textalternativen nur für zu dekorativen Zwecken genutzte Bilder erforderlich.</string>
+    
+    <!-- Question 3: True/False about contrast ratio -->
+    <string name="quiz_question_3">UI-Komponenten in Android-Apps müssen gemäß EN 301 549 einen Mindestkontrast von 4,5:1 zu angrenzenden Farben aufweisen.</string>
+    
+    <!-- Question 4: True/False about visible label matching accessible name -->
+    <string name="quiz_question_4">Nach EN 301 549 ist es zulässig, wenn die sichtbare Beschriftung einer UI-Komponente nicht mit dem programmatisch bestimmten zugänglichen Namen übereinstimmt.</string>
+    
+    <!-- Question 5: True/False about assistive technologies modifying values -->
+    <string name="quiz_question_5">Assistive Technologien müssen gemäß EN 301 549 in der Lage sein, den Wert und den Textinhalt von Benutzeroberflächenelementen zu ändern.</string>
+    
+    <!-- Question 6: True/False about input errors identification -->
+    <string name="quiz_question_6">EN 301 549 fordert, dass Eingabefehler in mobilen Anwendungen eindeutig identifiziert und dem Nutzer beschrieben werden.</string>
+    
+    <!-- Question 7: True/False about text scaling -->
+    <string name="quiz_question_7">Text in Android-Apps muss sich laut EN 301 549 nicht anpassen, wenn Benutzer die Systemtextgröße ändern.</string>
+    
+    <!-- Question 8: Multiple choice about programmatically determinable properties -->
+    <string name="quiz_question_8">Welche der folgenden Eigenschaften müssen gemäß EN 301 549 von assistiven Technologien programmatisch ermittelbar sein?</string>
+    <string name="quiz_question_8_option_a">A. Benutzeranmeldedaten</string>
+    <string name="quiz_question_8_option_b">B. Status von UI-Elementen</string>
+    <string name="quiz_question_8_option_c">C. Begrenzung von UI-Elementen</string>
+    <string name="quiz_question_8_option_d">D. Rolle von UI-Elementen</string>
+    
+    <!-- Question 9: Multiple choice about pre-recorded synchronized media -->
+    <string name="quiz_question_9">Wählen Sie alle zutreffenden Antworten: Was muss eine Android-App laut EN 301 549 für voraufgezeichnete, synchronisierte Medien bereitstellen?</string>
+    <string name="quiz_question_9_option_a">A. Automatische Sprachübersetzung</string>
+    <string name="quiz_question_9_option_b">B. Lautstärkeregelung</string>
+    <string name="quiz_question_9_option_c">C. Audiodeskriptionen</string>
+    <string name="quiz_question_9_option_d">D. Untertitel</string>
+    
+    <!-- Question 10: Multiple choice about accessible form fields -->
+    <string name="quiz_question_10">Welche Anforderungen gelten laut EN 301 549 für barrierefreie Formulareingabefelder?</string>
+    <string name="quiz_question_10_option_a">A. Nur visuelle Indikatoren</string>
+    <string name="quiz_question_10_option_b">B. Eindeutige Fehleridentifikation</string>
+    <string name="quiz_question_10_option_c">C. Beschriftung oder Anweisung</string>
+    <string name="quiz_question_10_option_d">D. Programmatisch identifizierbarer Eingabewert</string>
+    
+    <!-- Question 11: Multiple choice about sole method of conveying information -->
+    <string name="quiz_question_11">Was darf laut EN 301 549 NICHT als einziges Mittel zur Informationsvermittlung verwendet werden?</string>
+    <string name="quiz_question_11_option_a">A. Farbe</string>
+    <string name="quiz_question_11_option_b">B. Ton</string>
+    <string name="quiz_question_11_option_c">C. Text</string>
+    <string name="quiz_question_11_option_d">D. Vibration</string>
+    
+    <!-- Question 12: Multiple choice about focus order -->
+    <string name="quiz_question_12">Was fordert EN 301 549 in Bezug auf die Fokusreihenfolge in einer Android-Anwendung?</string>
+    <string name="quiz_question_12_option_a">A. Der Fokus darf interaktive Elemente überspringen</string>
+    <string name="quiz_question_12_option_b">B. Nur sichtbare Elemente erhalten Fokus</string>
+    <string name="quiz_question_12_option_c">C. Der Fokus muss einer sinnvollen Reihenfolge folgen</string>
+    <string name="quiz_question_12_option_d">D. Komponenten müssen zufällig fokussiert werden</string>
+    
+    <!-- Question 13: Multiple choice about error prevention and feedback -->
+    <string name="quiz_question_13">Welche Kriterien stehen laut EN 301 549 in direktem Zusammenhang mit Fehlervermeidung und Nutzer-Feedback bei Eingabefeldern?</string>
+    <string name="quiz_question_13_option_a">A. Fehlervermeidung</string>
+    <string name="quiz_question_13_option_b">B. Fehleridentifikation</string>
+    <string name="quiz_question_13_option_c">C. Tabellenüberschriften</string>
+    <string name="quiz_question_13_option_d">D. Fehlerkorrekturvorschlag</string>
+    
+    <!-- Question 14: Multiple choice about assistive technology actions -->
+    <string name="quiz_question_14">Welche Aktionen muss eine Android-App laut EN 301 549 assistiven Technologien bei UI-Elementen erlauben?</string>
+    <string name="quiz_question_14_option_a">A. Status ändern</string>
+    <string name="quiz_question_14_option_b">B. Farbthema der App ändern</string>
+    <string name="quiz_question_14_option_c">C. Textwert ändern</string>
+    <string name="quiz_question_14_option_d">D. UI-Element löschen</string>
+    
+    <!-- Question 15: Multiple choice about captions requirement -->
+    <string name="quiz_question_15">Welche Anforderung gilt laut EN 301 549 für Untertitel?</string>
+    <string name="quiz_question_15_option_a">A. Nur für Bilder</string>
+    <string name="quiz_question_15_option_b">B. Für voraufgezeichnete, synchronisierte Medien</string>
+    <string name="quiz_question_15_option_c">C. Nur für reine Video-Inhalte</string>
+    <string name="quiz_question_15_option_d">D. Nur für Live-Inhalte</string>
+    
+    <!-- Question 16: Multiple choice about pointer gestures -->
+    <string name="quiz_question_16">Wählen Sie alle zutreffenden Antworten: Welche Anforderungen werden in EN 301 549 an Zeigergesten gestellt?</string>
+    <string name="quiz_question_16_option_a">A. Gesten sollten immer mehrere Finger erfordern</string>
+    <string name="quiz_question_16_option_b">B. Es sind nur komplexe Gesten zulässig</string>
+    <string name="quiz_question_16_option_c">C. Alternative einfache Gesten müssen unterstützt werden</string>
+    <string name="quiz_question_16_option_d">D. Es muss eine Möglichkeit zum Abbruch von Zeigergesten geben</string>
+    
+    <!-- Feedback Screen Strings -->
+    <string name="feedback_title">Feedback</string>
+    <string name="feedback_type_title">Feedback-Typ</string>
+    <string name="feedback_type_description">Bitte wählen Sie die Art des Feedbacks, das Sie geben möchten</string>
+    <string name="feedback_type_general">Allgemeines Feedback</string>
+    <string name="feedback_type_general_desc">Teilen Sie Ihre Gedanken über die App-Erfahrung</string>
+    <string name="feedback_type_bug">Fehlerbericht</string>
+    <string name="feedback_type_bug_desc">Melden Sie ein Problem oder einen Fehler, auf den Sie gestoßen sind</string>
+    <string name="feedback_type_feature">Funktionsanfrage</string>
+    <string name="feedback_type_feature_desc">Schlagen Sie eine neue Funktion oder Verbesserung vor</string>
+    <string name="feedback_type_accessibility">Barrierefreiheitsproblem</string>
+    <string name="feedback_type_accessibility_desc">Melden Sie ein barrierefreiheitsbezogenes Problem</string>
+    <string name="feedback_type_other">Sonstiges</string>
+    <string name="feedback_type_other_desc">Jede andere Art von Feedback</string>
+    
+    <string name="feedback_content_title">Ihr Feedback</string>
+    <string name="feedback_content_description">Bitte geben Sie detaillierte Informationen zu Ihrem Feedback</string>
+    <string name="feedback_content_label">Feedback</string>
+    <string name="feedback_content_hint">Bitte beschreiben Sie Ihr Feedback detailliert (mindestens 10 Zeichen)</string>
+    
+    <string name="feedback_device_info_title">Geräteinformationen</string>
+    <string name="feedback_device_info_description">Diese Informationen helfen uns, Ihr Feedback besser zu verstehen und zu bearbeiten</string>
+    <string name="feedback_device_info_app_version">App-Version</string>
+    <string name="feedback_device_info_android_version">Android-Version</string>
+    <string name="feedback_device_info_device_model">Gerätemodell</string>
+    <string name="feedback_device_info_screen_resolution">Bildschirmauflösung</string>
+    
+    <string name="feedback_submit_button">Feedback senden</string>
+    <string name="feedback_success_title">Vielen Dank!</string>
+    <string name="feedback_success_message">Ihr Feedback wurde erfolgreich übermittelt. Wir schätzen Ihr Feedback und werden es sorgfältig prüfen.</string>
+    <string name="feedback_success_dismiss">Schließen</string>
+    <string name="feedback_success_back_to_settings">Zurück zu den Einstellungen</string>
+    
+    <!-- Email Feedback Messages -->
+    <string name="feedback_email_launched">E-Mail-App geöffnet! Bitte senden Sie das Feedback aus Ihrer E-Mail-App.</string>
+    <string name="feedback_email_sent">Feedback erfolgreich gesendet! Überprüfen Sie Ihre E-Mail-App.</string>
+    <string name="feedback_sent_successfully">Feedback erfolgreich gesendet!</string>
+    <string name="feedback_email_error">Feedback konnte nicht gesendet werden. Bitte versuchen Sie es erneut.</string>
+    <string name="feedback_email_no_app">Keine E-Mail-App gefunden. Bitte installieren Sie eine E-Mail-App und versuchen Sie es erneut.</string>
+    <string name="feedback_email_permission">Berechtigung verweigert. Bitte überprüfen Sie Ihre App-Berechtigungen.</string>
+    <string name="feedback_toast_dismiss">Schließen</string>
+    
+    <!-- Retry Dialog Strings -->
+    <string name="feedback_retry_title">Feedback senden fehlgeschlagen</string>
+    <string name="feedback_retry_message">Es gab ein Problem beim Senden Ihres Feedbacks. Möchten Sie es erneut versuchen?</string>
+    <string name="feedback_retry_button">Erneut versuchen</string>
+    <string name="feedback_retry_dismiss">Abbrechen</string>
+    
+    <!-- No Email App Dialog Strings -->
+    <string name="feedback_no_email_app_title">Keine E-Mail-App gefunden</string>
+    <string name="feedback_no_email_app_message">Auf Ihrem Gerät ist keine E-Mail-App installiert. Sie können eine aus dem Play Store installieren oder das Feedback in Ihre Zwischenablage kopieren.</string>
+    <string name="feedback_no_email_app_install">E-Mail-App installieren</string>
+    <string name="feedback_no_email_app_copy">In Zwischenablage kopieren</string>
+    <string name="feedback_no_email_app_dismiss">Abbrechen</string>
+    <string name="feedback_copied_to_clipboard">Feedback in Zwischenablage kopiert</string>
+    <string name="feedback_copy_error">Feedback konnte nicht kopiert werden</string>
+    
+    <!-- Feedback Content Descriptions -->
+    <string name="cd_feedback_back_button">Zurück zu den Einstellungen</string>
+    <string name="cd_feedback_type_option">%1$s Feedback-Typ-Option, %2$s</string>
+    <string name="cd_feedback_text_field">Feedback-Text-Eingabefeld</string>
+    <string name="cd_feedback_submit_button">Feedback senden Button</string>
+    <string name="cd_feedback_success_dialog">Feedback-Übermittlung Erfolgs-Dialog</string>
+    <string name="cd_feedback_success_dismiss_button">Erfolgs-Dialog schließen</string>
+    <string name="cd_feedback_success_back_button">Zu den Einstellungen zurückkehren</string>
+    <string name="cd_feedback_toast_message">Feedback-Übermittlungsnachricht</string>
+    <string name="cd_feedback_toast_dismiss">Feedback-Nachricht schließen</string>
+    <string name="cd_feedback_retry_dialog">Feedback-Wiederholungsdialog</string>
+    <string name="cd_feedback_retry_button">Feedback erneut senden versuchen</string>
+    <string name="cd_feedback_retry_dismiss_button">Wiederholung abbrechen und Dialog schließen</string>
+    <string name="cd_feedback_no_email_app_dialog">Keine E-Mail-App gefunden Dialog</string>
+    <string name="cd_feedback_no_email_app_install_button">E-Mail-App aus dem Play Store installieren</string>
+    <string name="cd_feedback_no_email_app_copy_button">Feedback in Zwischenablage kopieren</string>
+    <string name="cd_feedback_no_email_app_dismiss_button">Abbrechen und Dialog schließen</string>
+    
+    <!-- Login Screen Strings -->
+    <string name="login_welcome_title">Willkommen</string>
+    <string name="login_welcome_subtitle">Melden Sie sich an, um auf Ihr Quiz zuzugreifen</string>
+    <string name="login_email_label">E-Mail</string>
+    <string name="login_email_placeholder">ihre@email.com</string>
+    <string name="login_password_label">Passwort</string>
+    <string name="login_password_placeholder">Passwort</string>
+    <string name="login_button_text">Anmelden</string>
+    <string name="login_guest_button_text">Als Gast fortfahren</string>
+    <string name="login_register_prompt">Noch kein Konto? Registrieren</string>
+    
+    <!-- Login Error Messages -->
+    <string name="login_missing_fields_error">Bitte geben Sie sowohl E-Mail als auch Passwort ein</string>
+    <string name="login_email_invalid_error">Bitte geben Sie eine gültige E-Mail-Adresse ein</string>
+    <string name="login_no_internet_error">Keine Internetverbindung. Bitte überprüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
+    
+    <!-- Login Content Descriptions for Accessibility -->
+    <string name="cd_login_password_field_state">Passwortfeld, Zeichen werden ausgeblendet</string>
+    <string name="cd_login_error_message">Fehler: %1$s</string>
+    
+    <!-- Register Screen Strings -->
+    <string name="register_welcome_title">Konto erstellen</string>
+    <string name="register_welcome_subtitle">Schließen Sie sich uns an, um Ihre Barrierefreiheits-Reise zu beginnen</string>
+    <string name="register_email_label">E-Mail</string>
+    <string name="register_email_placeholder">ihre@email.com</string>
+    <string name="register_password_label">Passwort</string>
+    <string name="register_password_placeholder">Passwort</string>
+    <string name="register_confirm_password_label">Passwort bestätigen</string>
+    <string name="register_confirm_password_placeholder">Passwort wiederholen</string>
+    <string name="register_button_text">Registrieren</string>
+    <string name="register_back_button_text">Zurück zur Anmeldung</string>
+    
+    <!-- Register Error Messages -->
+    <string name="register_missing_fields_error">Bitte geben Sie sowohl E-Mail als auch Passwort ein</string>
+    <string name="register_email_invalid_error">Bitte geben Sie eine gültige E-Mail-Adresse ein</string>
+    <string name="register_password_too_short_error">Das Passwort muss mindestens 6 Zeichen lang sein</string>
+    <string name="register_passwords_mismatch_error">Passwörter stimmen nicht überein</string>
+    <string name="register_no_internet_error">Keine Internetverbindung. Bitte überprüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
+    
+    <!-- Register Content Descriptions for Accessibility -->
+    <string name="cd_register_email_field">E-Mail-Adressfeld für Registrierung</string>
+    <string name="cd_register_password_field">Passwortfeld für Registrierung</string>
+    <string name="cd_register_password_field_state">Passwortfeld, Zeichen werden ausgeblendet</string>
+    <string name="cd_register_confirm_password_field">Passwort bestätigen Feld</string>
+    <string name="cd_register_confirm_password_field_state">Passwort bestätigen Feld, Zeichen werden ausgeblendet</string>
+    <string name="cd_register_button">Konto registrieren Button</string>
+    <string name="cd_register_back_button">Zurück zur Anmeldung Button</string>
+    <string name="cd_register_error_message">Registrierungsfehler: %1$s</string>
+    
+    <!-- Content Descriptions for Login Screen -->
+    <string name="cd_login_welcome_title">Willkommen bei Access Lab</string>
+    <string name="cd_login_welcome_subtitle">Melden Sie sich an, um auf Ihr Quiz zuzugreifen</string>
+    <string name="cd_login_email_empty_state">E-Mail-Feld ist leer</string>
+    <string name="cd_login_error_suggestion">Fehler-Vorschlagsnachricht: %1$s</string>
+    
+    <!-- Content Descriptions for Register Screen -->
+    <string name="cd_register_welcome_title">Konto erstellen</string>
+    <string name="cd_register_welcome_subtitle">Schließen Sie sich uns an, um Ihre Barrierefreiheits-Reise zu beginnen</string>
+    <string name="cd_register_email_empty_state">E-Mail-Feld ist leer</string>
+    <string name="cd_register_error_suggestion">Fehler-Vorschlagsnachricht: %1$s</string>
+    
+    <!-- Content Descriptions for Profile Screen -->
+    <string name="cd_profile_settings_section">Profil-Einstellungen Bereich</string>
+    <string name="profile_user_fallback">Benutzer</string>
+    
+    <!-- Video Player Strings -->
+    <string name="video_player_cc_button">CC</string>
+    <string name="video_player_exit_fullscreen">Vollbildmodus beenden</string>
+    <string name="video_player_enter_fullscreen">Vollbildmodus starten</string>
+    <string name="video_player_error_message">Fehler: %1$s</string>
+    
+    <!-- YouTube External Player -->
+    <string name="youtube_external_description">Dieses Video wird in der YouTube-App oder Ihrem Standard-Browser für die beste Anzeige geöffnet.</string>
+    <string name="youtube_external_open_button">In YouTube öffnen</string>
+    <string name="youtube_external_cancel_button">Abbrechen</string>
+    <string name="cd_youtube_external_open">Video in YouTube-App oder Browser öffnen</string>
+    <string name="cd_youtube_external_cancel">Abbrechen und Dialog schließen</string>
+    <string name="cd_youtube_external_close">Video-Player schließen</string>
+    
+    <!-- Question Screen Placeholder Content -->
+    <string name="question_screen_first_title">Erste Frage-Screen</string>
+    <string name="question_screen_visual_features">Visuelle Barrierefreiheits-Funktionen</string>
+    <string name="question_screen_second_title">Zweite Frage-Screen</string>
+    <string name="question_screen_default_title">Frage-Screen</string>
+    <string name="question_screen_quiz_title">Barrierefreiheits-Quiz</string>
+    <string name="question_screen_visual_description">Diese Screen demonstriert Barrierefreiheits-Funktionen für Benutzer mit Sehbehinderungen.</string>
+    <string name="question_screen_features_include">Funktionen umfassen:</string>
+    <string name="question_screen_visual_features_list">• Hoher Kontrast Text\n• Screenreader-Kompatibilität\n• Große, lesbare Schriftarten\n• Klare visuelle Hierarchie</string>
+    <string name="question_screen_wcag_description">Diese Screen demonstriert die vier wichtigsten Prinzipien der WCAG 2.1 Barrierefreiheits-Richtlinien.</string>
+    <string name="question_screen_pour_title">Die POUR-Prinzipien:</string>
+    <string name="question_screen_pour_list">• Wahrnehmbar\n• Bedienbar\n• Verständlich\n• Robust</string>
+    <string name="question_screen_placeholder_description">Dies ist eine Platzhalter-Screen für zusätzliche Quiz-Fragen.</string>
+    <string name="question_screen_placeholder_content">Weitere Inhalte werden hier hinzugefügt, wenn neue Fragen erstellt werden.</string>
+    <string name="notes_list_container">Notizenliste</string>
+    <string name="splash_loading">Lädt…</string>
+    <string name="nav_home">Startseite</string>
+    <string name="nav_quiz">Quiz</string>
+    <string name="nav_settings">Einstellungen</string>
+    <string name="nav_notes">Notizen</string>
+    <string name="nav_library">Mediathek</string>
+
+</resources>
