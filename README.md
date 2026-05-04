@@ -1,28 +1,12 @@
 # AccessLab
 
-A native Android demonstrator app built for a master's thesis on evaluating accessibility testing tools under EN 301 549. The app is simultaneously a **learning tool** (interactive quiz, notes, videos) and a **reference implementation** — every screen embodies the accessibility patterns and testing approaches the thesis analyses.
-
----
-
-## Research Context
-
-**Thesis:** *Evaluation of Accessibility Testing Tools for Native Android Apps under EN 301 549*
-
-The study derives testable accessibility requirements from EN 301 549 (the European standard for ICT accessibility) and evaluates their applicability to native Android apps built with Jetpack Compose. Three evaluation methods were applied to this demonstrator:
-
-| Method | Tools used in this project |
-|---|---|
-| **Automated** | Android Lint + custom lint rules module, Accessibility Testing Framework (ATF), Compose UI Test (`ui-test-accessibility`) |
-| **Semi-automated** | Espresso + `espresso-accessibility`, instrumented compliance tests with structured reporting |
-| **Manual** | TalkBack screen reader, end-to-end user-flow testing |
-
-The thesis evaluates each method across criterion-level coverage, accuracy, integration potential, and developer usability — making AccessLab both the subject and the instrument of the study.
+A native Android app built with Jetpack Compose that demonstrates accessibility patterns aligned with EN 301 549 and WCAG 2.1 AA. It is simultaneously a **learning tool** (interactive quiz, notes, videos) and a **reference implementation** — every screen embodies intentional, standards-traceable accessibility decisions.
 
 ---
 
 ## Purpose
 
-AccessLab lets users take an interactive quiz on EN 301 549 / WCAG 2.1 criteria, take notes, and watch curated videos — all while the app itself demonstrates the patterns it teaches. It is designed to be readable as a codebase: every accessibility decision is intentional and traceable to a specific standard criterion.
+AccessLab lets users take an interactive quiz on EN 301 549 / WCAG 2.1 criteria, take notes, and watch curated videos — all while the app itself demonstrates the accessibility patterns it teaches. Every accessibility decision is intentional and traceable to a specific standard criterion.
 
 ---
 
@@ -124,7 +108,7 @@ Scale changes propagate reactively through `TypographyManager.getScaleState()` i
 
 Every screen follows a consistent pattern:
 
-- **Content descriptions** — all non-text elements and interactive controls carry `contentDescription` (615 string resources, prefixed `cd_*`)
+- **Content descriptions** — all non-text elements and interactive controls carry `contentDescription` (133 string resources, prefixed `cd_*`)
 - **Heading hierarchy** — `semantics { heading() }` on all section titles so screen readers can jump between sections
 - **Role annotations** — `Role.Switch`, `Role.RadioButton`, `Role.Button` declared explicitly on every control type
 - **TalkBack traversal order** — `semantics { traversalIndex }` used wherever visual order differs from logical reading order
@@ -179,7 +163,7 @@ Settings are persisted and restored on startup via `AccessibilitySettingsViewMod
 
 ### Tool Taxonomy
 
-The project applies all three evaluation methods from the thesis:
+The project applies three evaluation methods:
 
 | Method | Tool | Integration point | Coverage type |
 |---|---|---|---|
@@ -189,11 +173,9 @@ The project applies all three evaluation methods from the thesis:
 | Semi-automated | Espresso + `espresso-accessibility` | Instrumented test run | Runtime — interaction flows |
 | Manual | TalkBack | On-device | Experiential — navigation, context, announcements |
 
-### Custom Lint Rules
+### Lint Configuration
 
-The `accessibility-lint-rules/` Gradle module ships project-specific lint detectors. The active rule set is declared in `app/valid-accessibility-lint.xml` and enables 25 checks, including:
-
-`ContentDescription` · `LabelFor` · `ClickableViewAccessibility` · `KeyboardInaccessibleWidget` · `RtlEnabled` · `RtlHardcoded` · `ExportedContentProviders` · `HandlerLeak` · `SetTextI18n` · and more.
+The `accessibility-lint-rules/` Gradle module is the home for lint configuration. The active rule set is declared in `app/valid-accessibility-lint.xml`, which enables and configures built-in Android lint rules relevant to accessibility (31 issues in total, including `ContentDescription`, `LabelFor`, `ClickableViewAccessibility`, `KeyboardInaccessibleWidget`, and RTL rules).
 
 HTML, XML, and text lint reports are generated to `app/build/reports/`.
 
@@ -205,7 +187,7 @@ HTML, XML, and text lint reports are generated to `app/build/reports/`.
 - Text and JSON report generation written to external storage after each test run
 - Aggregate metrics: total / passed / failed counts, compliance rate
 
-Nine screen-level test classes extend this base:
+Eight screen-level test classes extend this base:
 
 | Test class | Screen |
 |---|---|
@@ -252,20 +234,6 @@ com.makhabatusen.access_lab_app.ui.notes.NotesScreenAccessibilityComplianceTest
 ```
 
 JSON compliance reports from the instrumented run are written to the device's external storage and can be pulled with `adb pull`.
-
----
-
-## Key Research Findings
-
-The thesis evaluation across all three methods produced four main conclusions:
-
-1. **Automated tools are valuable for early-stage validation.** Lint and ATF reliably catch missing content descriptions, insufficient touch targets, and structural markup errors at build time and in CI — before a device is needed.
-
-2. **Automated tools have limited reliability for runtime and experiential issues.** Context-dependent announcements, logical reading order across dynamic content, and flow-level navigation barriers are largely invisible to automated checks.
-
-3. **Manual TalkBack testing remains essential.** Screen reader testing was the only method that reliably identified critical usability barriers related to navigation context, state changes, and interaction feedback.
-
-4. **The three methods are complementary, not substitutable.** Effective integration means applying lint continuously (build-time), ATF/Compose tests in the test suite (runtime), and structured TalkBack sessions at feature completion — not choosing one over another.
 
 ---
 
