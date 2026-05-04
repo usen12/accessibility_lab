@@ -88,21 +88,4 @@ class ProfileViewModel : ViewModel() {
             "Add profile picture"
         }
     }
-    
-    fun getProfilePictureActionDescription(): String {
-        return if (hasProfilePicture) {
-            "Tap to change profile picture"
-        } else {
-            "Tap to add profile picture"
-        }
-    }
 }
-
-@Composable
-fun rememberProfileImagePicker(
-    onImageSelected: (Uri?) -> Unit
-) = rememberLauncherForActivityResult(
-    contract = ActivityResultContracts.GetContent()
-) { uri: Uri? ->
-    onImageSelected(uri)
-} 

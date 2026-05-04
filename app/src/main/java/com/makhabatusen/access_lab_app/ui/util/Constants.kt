@@ -15,27 +15,12 @@ object Constants {
         val SWIPE_THRESHOLD = SWIPE_THRESHOLD_DP.dp
     }
     
-    // Animation and Timing
-    object Animation {
-        const val SHORT_DURATION_MS = 150
-        const val MEDIUM_DURATION_MS = 300
-        const val LONG_DURATION_MS = 500
-    }
-    
+
     // Quiz Configuration
     object Quiz {
         const val MIN_ANSWERS_REQUIRED = 1
-        const val MAX_ANSWERS_PER_QUESTION = 4
-        const val DEFAULT_QUESTION_COUNT = 16 // Total number of available questions (7 True/False + 9 Multiple Choice)
     }
-    
-    // Layout Weights
-    object Layout {
-        const val LANDSCAPE_LEFT_PANE_WEIGHT = 0.55f
-        const val LANDSCAPE_RIGHT_PANE_WEIGHT = 0.4f
-        const val PORTRAIT_CONTAINER_WEIGHT = 0.5f
-        const val PORTRAIT_ANSWERS_WEIGHT = 0.5f
-    }
+
     
     // Responsive Breakpoints (in dp)
     object Breakpoints {

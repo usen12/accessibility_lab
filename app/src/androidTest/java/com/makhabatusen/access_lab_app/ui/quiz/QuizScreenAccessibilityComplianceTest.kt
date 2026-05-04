@@ -1,7 +1,6 @@
 package com.makhabatusen.access_lab_app.ui.quiz
 
-import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.semantics.SemanticsProperties
+
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.assertIsEnabled
 import androidx.compose.ui.test.assertWidthIsAtLeast

@@ -37,34 +37,8 @@ object QuestionScreenRegistry {
     fun getScreen(questionId: Int): QuestionScreen {
         return screens[questionId] ?: screens[0] ?: DefaultQuestionScreenImpl
     }
-    
-    /**
-     * Gets all registered question screens.
-     * 
-     * @return List of all registered question screens
-     */
-    fun getAllScreens(): List<QuestionScreen> {
-        return screens.values.toList()
-    }
-    
-    /**
-     * Checks if a question screen is registered for the given ID.
-     * 
-     * @param questionId The ID of the question
-     * @return True if a screen is registered for this ID
-     */
-    fun hasScreen(questionId: Int): Boolean {
-        return screens.containsKey(questionId)
-    }
-    
-    /**
-     * Gets the number of registered screens.
-     * 
-     * @return The number of registered question screens
-     */
-    fun getScreenCount(): Int {
-        return screens.size
-    }
+
+
 }
 
 /**

@@ -2,8 +2,6 @@ package com.makhabatusen.access_lab_app
 
 import android.app.Application
 import android.content.Context
-import android.content.res.Configuration
-import android.os.LocaleList
 import android.util.Log
 import android.webkit.WebView
 import com.google.firebase.FirebaseApp
@@ -15,7 +13,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch
-import java.util.Locale
 
 class AccessLabApplication : Application() {
 

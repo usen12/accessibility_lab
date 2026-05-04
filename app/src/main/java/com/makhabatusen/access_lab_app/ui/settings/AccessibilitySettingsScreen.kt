@@ -25,7 +25,6 @@ import com.makhabatusen.access_lab_app.ui.util.isTablet
 import com.makhabatusen.access_lab_app.ui.components.AccessibleFocusIndicator
 import com.makhabatusen.access_lab_app.ui.components.FocusIndicatorStyle
 import com.makhabatusen.access_lab_app.ui.theme.rememberThemeManager
-import com.makhabatusen.access_lab_app.ui.settings.AccessibilitySettingsViewModel
 
 
 @Composable

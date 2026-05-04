@@ -16,33 +16,6 @@ data class YoutubeVideoItem(
     val viewCount: String,
     val videoUrl: String? = null
 ) {
-    /**
-     * Get the full YouTube URL for this video
-     */
-    fun getYouTubeUrl(): String {
-        return "https://www.youtube.com/watch?v=$id"
-    }
-    
-    /**
-     * Get the embed URL for this video
-     */
-    fun getEmbedUrl(): String {
-        return "https://www.youtube.com/embed/$id"
-    }
-    
-    /**
-     * Get the playlist URL for this video
-     */
-    fun getPlaylistUrl(): String {
-        return "https://www.youtube.com/watch?v=$id&list=PLWz5rJ2EKKc8OENfLdh3zM5T6IRdlVYKj"
-    }
-    
-    /**
-     * Get the playlist ID
-     */
-    fun getPlaylistId(): String {
-        return "PLWz5rJ2EKKc8OENfLdh3zM5T6IRdlVYKj"
-    }
     
     companion object {
         /**

@@ -191,5 +191,3 @@ object TypographyManager {
     }
 }
 
-// Default typography for backward compatibility
-val Typography = TypographyManager.getTypography()

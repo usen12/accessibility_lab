@@ -135,8 +135,6 @@ private fun ProfileSettingsSection(profileViewModel: ProfileViewModel, isTablet:
     val namePlaceholder = stringResource(R.string.profile_name_placeholder)
     val bioLabel = stringResource(R.string.profile_bio_label)
     val bioPlaceholder = stringResource(R.string.profile_bio_placeholder)
-    val bioHint = stringResource(R.string.profile_bio_hint)
-    val saveButtonText = stringResource(R.string.profile_save_button)
     val tapToChangeText = stringResource(R.string.profile_tap_to_change)
     val tapToAddText = stringResource(R.string.profile_tap_to_add)
     val addNameText = stringResource(R.string.profile_add_name)

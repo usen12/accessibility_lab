@@ -5,7 +5,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import com.makhabatusen.access_lab_app.R
 import com.makhabatusen.access_lab_app.core.language.LanguageManager
 import com.makhabatusen.access_lab_app.core.language.LanguageOption
 
@@ -62,21 +61,8 @@ class LanguageSettingsViewModel : ViewModel() {
             showRestartDialog = true
         }
     }
-    
-    /**
-     * Get the display name for the current language
-     */
-    fun getCurrentLanguageDisplayName(): String {
-        return languageManager?.getLanguageDisplayName(currentLanguage) ?: context?.getString(R.string.language_system_default) ?: "System Default"
-    }
-    
-    /**
-     * Dismiss the restart dialog
-     */
-    fun dismissRestartDialog() {
-        showRestartDialog = false
-    }
-    
+
+
     /**
      * Handle restart confirmation
      */
@@ -96,16 +82,5 @@ class LanguageSettingsViewModel : ViewModel() {
         // Optionally revert the language change
         // languageManager?.setLanguage(previousLanguage)
     }
-    
-    /**
-     * Check if the current language is the system default
-     */
-    fun isSystemDefault(): Boolean {
-        return currentLanguage == LanguageManager.LANGUAGE_SYSTEM
-    }
-    
-    /**
-     * Get the language manager instance
-     */
-    fun getLanguageManager(): LanguageManager? = languageManager
+
 } 

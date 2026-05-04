@@ -51,25 +51,10 @@ val HighContrastDarkOnBackground = Color(0xFFFFFFFF) // White - 21:1 contrast
 val HighContrastDarkSurface = Color(0xFF000000) // Black
 val HighContrastDarkOnSurface = Color(0xFFFFFFFF) // White - 21:1 contrast
 
-// Semantic Colors for Quiz App (Accessible versions)
-val QuizContainerGreen = Color(0xFF2E7D32) // Green 800 - 4.5:1 contrast
-val QuizContainerGreenDark = Color(0xFF1B5E20) // Green 900 - 4.5:1 contrast
 
 // Status Colors (Accessible versions)
 val SuccessGreen = Color(0xFF2E7D32) // Green 800 - 4.5:1 contrast
 // Fixed warning orange color (WCAG AA compliant - 4.5:1+ contrast)
 val WarningOrange = Color(0xFFBF360C) // Orange 900 - better contrast (4.5:1+)
 val ErrorRed = Color(0xFFC62828) // Red 800 - 4.5:1 contrast
-val InfoBlue = Color(0xFF1565C0) // Blue 800 - 4.5:1 contrast
 
-// Focus and Selection Colors
-val FocusIndicatorLight = Color(0xFF1976D2) // Blue 700
-val FocusIndicatorDark = Color(0xFF90CAF9) // Blue 200
-val SelectionLight = Color(0xFFE3F2FD) // Blue 50
-val SelectionDark = Color(0xFF0D47A1) // Blue 900
-
-// Disabled State Colors
-val DisabledLight = Color(0xFFBDBDBD) // Grey 400
-val DisabledDark = Color(0xFF616161) // Grey 700
-val OnDisabledLight = Color(0xFF757575) // Grey 600
-val OnDisabledDark = Color(0xFF9E9E9E) // Grey 500

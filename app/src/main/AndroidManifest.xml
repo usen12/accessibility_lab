@@ -30,10 +30,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name="com.makhabatusen.access_lab_app.ui.notes.NotesPageTestActivity"
-            android:exported="false"
-            android:theme="@style/Theme.AccessLab" />
 
     </application>
 

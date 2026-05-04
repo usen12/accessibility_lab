@@ -12,49 +12,7 @@ import com.makhabatusen.access_lab_app.R
 import com.makhabatusen.access_lab_app.ui.quiz.model.QuizQuestion
 import com.makhabatusen.access_lab_app.ui.util.Constants
 
-/**
- * Displays the appropriate question screen based on the current question.
- * This is the main entry point for question screen rendering.
- */
-@Composable
-fun QuestionScreen(
-    currentQuestion: QuizQuestion?,
-    modifier: Modifier = Modifier
-) {
-    val questionId = currentQuestion?.id ?: 0
-    val screen = QuestionScreenFactory.createQuestionScreen(questionId, modifier)
-    screen()
-}
 
-/**
- * First question screen - Accessibility features for visual impairments
- */
-@Composable
-fun FirstQuestionScreen(
-    modifier: Modifier = Modifier
-) {
-    VisualAccessibilityScreen().Content(modifier = modifier, question = null)
-}
-
-/**
- * Second question screen - WCAG 2.1 principles
- */
-@Composable
-fun SecondQuestionScreen(
-    modifier: Modifier = Modifier
-) {
-    WCAGPrinciplesScreen().Content(modifier = modifier, question = null)
-}
-
-/**
- * Default question screen for any other questions
- */
-@Composable
-fun DefaultQuestionScreen(
-    modifier: Modifier = Modifier
-) {
-    DefaultQuestionScreenImpl.Content(modifier = modifier, question = null)
-}
 
 /**
  * Visual Accessibility Question Screen Implementation

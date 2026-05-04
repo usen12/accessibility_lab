@@ -26,38 +26,7 @@ object QuestionScreenFactory {
             screen.asComposable(modifier = modifier)
         }
     }
-    
-    /**
-     * Gets the screen type for a given question ID.
-     * Useful for analytics, testing, or conditional logic.
-     */
-    fun getScreenType(questionId: Int): QuestionScreenType {
-        val screen = QuestionScreenRegistry.getScreen(questionId)
-        return screen.screenType
-    }
-    
-    /**
-     * Checks if a question ID has a custom screen implementation.
-     */
-    fun hasCustomScreen(questionId: Int): Boolean {
-        return QuestionScreenRegistry.hasScreen(questionId) && questionId != 0
-    }
-    
-    /**
-     * Gets all available screen types.
-     */
-    fun getAllScreenTypes(): List<QuestionScreenType> {
-        return QuestionScreenRegistry.getAllScreens().map { it.screenType }
-    }
-    
-    /**
-     * Registers a new question screen.
-     * 
-     * @param screen The question screen to register
-     */
-    fun registerScreen(screen: QuestionScreen) {
-        QuestionScreenRegistry.register(screen)
-    }
+
 }
 
 /**

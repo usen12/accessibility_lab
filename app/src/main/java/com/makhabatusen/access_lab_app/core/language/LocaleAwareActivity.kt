@@ -1,11 +1,8 @@
 package com.makhabatusen.access_lab_app.core.language
 
 import android.content.Context
-import android.content.res.Configuration
 import android.os.Bundle
-import android.os.LocaleList
 import androidx.activity.ComponentActivity
-import java.util.*
 
 /**
  * Base activity that handles locale changes properly

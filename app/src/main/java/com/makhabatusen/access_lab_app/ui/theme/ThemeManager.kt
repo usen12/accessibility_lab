@@ -71,17 +71,7 @@ class ThemeManager private constructor(private val context: Context) {
         }
         setThemeMode(newMode)
     }
-    
-    /**
-     * Set whether to follow system theme
-     */
-    fun setFollowSystem(follow: Boolean) {
-        _followSystem.value = follow
-        saveFollowSystem(follow)
-        if (follow) {
-            setThemeMode(THEME_SYSTEM)
-        }
-    }
+
     
     /**
      * Get the effective dark mode state
