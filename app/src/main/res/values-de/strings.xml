@@ -72,21 +72,15 @@
     <!-- Settings Screen Strings -->
     <string name="settings_title">Einstellungen</string>
     <string name="app_settings_heading">App-Einstellungen</string>
-    <string name="profile_placeholder">Nächste Schritte: Profilansicht, E-Mail des Benutzers, Einstellungen, Richtlinien</string>
     <string name="profile_picture_label">Profilbild</string>
     <string name="profile_add_picture">Profilbild hinzufügen</string>
     <string name="profile_change_picture">Profilbild ändern</string>
     <string name="profile_picture_placeholder">Profilbild Platzhalter</string>
-    <string name="profile_user_info">Benutzerinformationen</string>
     <string name="profile_email_label">E-Mail</string>
-    <string name="profile_email_placeholder">Geben Sie Ihre E-Mail ein</string>
     <string name="profile_name_label">Name</string>
     <string name="profile_name_placeholder">Geben Sie Ihren Namen ein</string>
     <string name="profile_bio_label">Biografie</string>
     <string name="profile_bio_placeholder">Erzählen Sie uns von sich</string>
-    <string name="profile_bio_hint">Teilen Sie eine kurze Beschreibung über sich</string>
-    <string name="profile_save_button">Änderungen speichern</string>
-    <string name="profile_settings_section">Einstellungen</string>
     <string name="profile_accessibility_settings">Barrierefreiheit-Einstellungen</string>
     <string name="profile_logout_button">Abmelden</string>
     <string name="profile_save_success">Profil erfolgreich aktualisiert!</string>
@@ -125,8 +119,6 @@
     <string name="accessibility_dark_mode_desc">Verwenden Sie das dunkle Theme für besseren Kontrast und weniger Augenbelastung</string>
     <string name="accessibility_high_contrast">Hoher Kontrast</string>
     <string name="accessibility_high_contrast_desc">Kontrast erhöhen für bessere Sichtbarkeit</string>
-    <string name="accessibility_large_text">Großer Text</string>
-    <string name="accessibility_large_text_desc">Textgröße für bessere Lesbarkeit erhöhen</string>
     <string name="accessibility_font_scale">Schriftgröße</string>
     <string name="accessibility_font_scale_desc">Textgröße für bessere Lesbarkeit anpassen</string>
     <string name="accessibility_font_scale_small">Klein (85%)</string>
@@ -137,11 +129,7 @@
     <string name="accessibility_font_scale_dialog_title">Schriftgröße wählen</string>
     <string name="accessibility_font_scale_dialog_desc">Wählen Sie Ihre bevorzugte Textgröße</string>
     <string name="accessibility_font_scale_preview">Vorschau Text</string>
-    <string name="accessibility_font_scale_system">System-Standard</string>
-    <string name="accessibility_font_scale_system_desc">System-Schriftgröße-Einstellung verwenden</string>
-    <string name="accessibility_font_scale_reset">Auf System zurücksetzen</string>
-        <string name="accessibility_font_scale_reset_desc">Auf System-Schriftgröße-Einstellung zurücksetzen</string>
-    
+
     <!-- Font Scale Descriptions -->
     <string name="accessibility_font_scale_small_desc">Klein (85%)</string>
     <string name="accessibility_font_scale_medium_desc">Mittel (100%)</string>
@@ -194,9 +182,7 @@
     <string name="cd_note_empty_state_message">Leere Notizenliste Nachricht</string>
     
     <!-- Note Action Messages -->
-    <string name="note_add_action">Notiz hinzufügen</string>
     <string name="cd_note_add_action">Notiz hinzufügen Button</string>
-    <string name="note_delete_action">Notiz löschen</string>
     <string name="cd_note_delete_action">Notiz löschen Button</string>
     <string name="note_delete_dialog_title">Notiz löschen</string>
     <string name="note_delete_dialog_message">Sind Sie sicher, dass Sie diese Notiz löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.</string>
@@ -217,11 +203,8 @@
     <string name="cd_quiz_answer_true">Wahr Antwortoption</string>
     <string name="cd_quiz_answer_false">Falsch Antwortoption</string>
     
-    <!-- Motion Actuation Description -->
-    <string name="motion_actuation_description">Bewegungssteuerung ermöglicht es Ihnen, Aktionen durch Schütteln Ihres Geräts auszuführen. Diese Funktion kann in den Barrierefreiheit-Einstellungen aktiviert oder deaktiviert werden. Wenn aktiviert, können Sie schütteln, um einen neuen Notiz-Screen zu öffnen, und erneut schütteln, um die Notiz zu speichern. Alternative Methoden sind immer über Standard-UI-Steuerelemente verfügbar.</string>
-    <string name="cd_motion_actuation_description">Bewegungssteuerung Funktionsbeschreibung</string>
     <string name="accessibility_motion_actuation_desc">Schüttel-Geste aktivieren, um neuen Notiz-Screen zu öffnen und Notizen zu speichern</string>
-    
+
     <!-- Interaction Accessibility Settings -->
 
     
@@ -231,11 +214,6 @@
     <string name="accessibility_on">an</string>
     <string name="accessibility_off">aus</string>
     
-    <!-- Accessibility Prompt -->
-    <string name="accessibility_enable_prompt">Aktivieren Sie Barrierefreiheit-Dienste für eine bessere Erfahrung mit Screenreadern und anderen Hilfstechnologien</string>
-    <string name="cd_accessibility_prompt">Barrierefreiheit-Dienste Aufforderung</string>
-    <string name="cd_accessibility_prompt_dismiss">Barrierefreiheit-Aufforderung schließen</string>
-    
     <!-- Content Descriptions for Accessibility Settings -->
     <string name="cd_accessibility_back_button">Zurück zum Profil</string>
     <string name="cd_accessibility_toggle">%1$s Schalter, %2$s</string>
@@ -243,17 +221,8 @@
     <string name="cd_theme_switch">Theme-Schalter</string>
     <string name="cd_high_contrast_toggle">Hoher Kontrast Schalter, %1$s</string>
     
-    <!-- Theme and Accessibility Messages -->
-    <string name="theme_light_mode">Heller Modus</string>
-    <string name="theme_dark_mode">Dunkler Modus</string>
-    <string name="theme_system_mode">System-Theme</string>
-    <string name="theme_changed_to_light">Zu hellem Modus gewechselt</string>
-    <string name="theme_changed_to_dark">Zu dunklem Modus gewechselt</string>
-    <string name="theme_following_system">Folgt System-Theme</string>
-    
     <!-- Video Screen Strings -->
     <string name="library_page_title">Bibliothek</string>
-    <string name="video_page_coming_soon">Video-Inhalte kommen bald!</string>
     <string name="video_search_placeholder">Nach Barrierefreiheit-Videos suchen...</string>
     <string name="video_search_icon">Suchsymbol</string>
     <string name="video_clear_search">Suche löschen</string>
@@ -322,8 +291,6 @@
     <string name="video_player_caption_language_english">Englisch</string>
     <string name="video_player_caption_language_german">Deutsch</string>
     <string name="video_player_caption_language_off">Aus</string>
-    <string name="video_player_caption_language_menu">Untertitelsprache</string>
-    <string name="video_player_caption_language_menu_desc">Untertitelsprache auswählen</string>
     <string name="cd_video_player_caption_language_menu">Untertitelsprache-Auswahlmenü</string>
     <string name="cd_video_player_caption_language_english">Englische Untertitel</string>
     <string name="cd_video_player_caption_language_german">Deutsche Untertitel</string>
@@ -455,30 +422,6 @@
     <string name="feedback_success_dismiss">Schließen</string>
     <string name="feedback_success_back_to_settings">Zurück zu den Einstellungen</string>
     
-    <!-- Email Feedback Messages -->
-    <string name="feedback_email_launched">E-Mail-App geöffnet! Bitte senden Sie das Feedback aus Ihrer E-Mail-App.</string>
-    <string name="feedback_email_sent">Feedback erfolgreich gesendet! Überprüfen Sie Ihre E-Mail-App.</string>
-    <string name="feedback_sent_successfully">Feedback erfolgreich gesendet!</string>
-    <string name="feedback_email_error">Feedback konnte nicht gesendet werden. Bitte versuchen Sie es erneut.</string>
-    <string name="feedback_email_no_app">Keine E-Mail-App gefunden. Bitte installieren Sie eine E-Mail-App und versuchen Sie es erneut.</string>
-    <string name="feedback_email_permission">Berechtigung verweigert. Bitte überprüfen Sie Ihre App-Berechtigungen.</string>
-    <string name="feedback_toast_dismiss">Schließen</string>
-    
-    <!-- Retry Dialog Strings -->
-    <string name="feedback_retry_title">Feedback senden fehlgeschlagen</string>
-    <string name="feedback_retry_message">Es gab ein Problem beim Senden Ihres Feedbacks. Möchten Sie es erneut versuchen?</string>
-    <string name="feedback_retry_button">Erneut versuchen</string>
-    <string name="feedback_retry_dismiss">Abbrechen</string>
-    
-    <!-- No Email App Dialog Strings -->
-    <string name="feedback_no_email_app_title">Keine E-Mail-App gefunden</string>
-    <string name="feedback_no_email_app_message">Auf Ihrem Gerät ist keine E-Mail-App installiert. Sie können eine aus dem Play Store installieren oder das Feedback in Ihre Zwischenablage kopieren.</string>
-    <string name="feedback_no_email_app_install">E-Mail-App installieren</string>
-    <string name="feedback_no_email_app_copy">In Zwischenablage kopieren</string>
-    <string name="feedback_no_email_app_dismiss">Abbrechen</string>
-    <string name="feedback_copied_to_clipboard">Feedback in Zwischenablage kopiert</string>
-    <string name="feedback_copy_error">Feedback konnte nicht kopiert werden</string>
-    
     <!-- Feedback Content Descriptions -->
     <string name="cd_feedback_back_button">Zurück zu den Einstellungen</string>
     <string name="cd_feedback_type_option">%1$s Feedback-Typ-Option, %2$s</string>
@@ -487,16 +430,6 @@
     <string name="cd_feedback_success_dialog">Feedback-Übermittlung Erfolgs-Dialog</string>
     <string name="cd_feedback_success_dismiss_button">Erfolgs-Dialog schließen</string>
     <string name="cd_feedback_success_back_button">Zu den Einstellungen zurückkehren</string>
-    <string name="cd_feedback_toast_message">Feedback-Übermittlungsnachricht</string>
-    <string name="cd_feedback_toast_dismiss">Feedback-Nachricht schließen</string>
-    <string name="cd_feedback_retry_dialog">Feedback-Wiederholungsdialog</string>
-    <string name="cd_feedback_retry_button">Feedback erneut senden versuchen</string>
-    <string name="cd_feedback_retry_dismiss_button">Wiederholung abbrechen und Dialog schließen</string>
-    <string name="cd_feedback_no_email_app_dialog">Keine E-Mail-App gefunden Dialog</string>
-    <string name="cd_feedback_no_email_app_install_button">E-Mail-App aus dem Play Store installieren</string>
-    <string name="cd_feedback_no_email_app_copy_button">Feedback in Zwischenablage kopieren</string>
-    <string name="cd_feedback_no_email_app_dismiss_button">Abbrechen und Dialog schließen</string>
-    
     <!-- Login Screen Strings -->
     <string name="login_welcome_title">Willkommen</string>
     <string name="login_welcome_subtitle">Melden Sie sich an, um auf Ihr Quiz zuzugreifen</string>

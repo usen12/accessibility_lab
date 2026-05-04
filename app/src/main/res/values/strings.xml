@@ -72,21 +72,15 @@
     <!-- Settings Screen Strings -->
     <string name="settings_title">Settings</string>
     <string name="app_settings_heading">App Settings</string>
-    <string name="profile_placeholder">Next Steps: Profile View, Email of the User, Settings, Policy</string>
     <string name="profile_picture_label">Profile Picture</string>
     <string name="profile_add_picture">Add Profile Picture</string>
     <string name="profile_change_picture">Change Profile Picture</string>
     <string name="profile_picture_placeholder">Profile picture placeholder</string>
-    <string name="profile_user_info">User Information</string>
     <string name="profile_email_label">Email</string>
-    <string name="profile_email_placeholder">Enter your email</string>
     <string name="profile_name_label">Name</string>
     <string name="profile_name_placeholder">Enter your name</string>
     <string name="profile_bio_label">Bio</string>
     <string name="profile_bio_placeholder">Tell us about yourself</string>
-    <string name="profile_bio_hint">Share a brief description about yourself</string>
-    <string name="profile_save_button">Save Changes</string>
-    <string name="profile_settings_section">Settings</string>
     <string name="profile_accessibility_settings">Accessibility Settings</string>
     <string name="profile_logout_button">Logout</string>
     <string name="profile_save_success">Profile updated successfully!</string>
@@ -125,8 +119,6 @@
     <string name="accessibility_dark_mode_desc">Use dark theme for better contrast and reduced eye strain</string>
     <string name="accessibility_high_contrast">High Contrast</string>
     <string name="accessibility_high_contrast_desc">Increase contrast for better visibility</string>
-    <string name="accessibility_large_text">Large Text</string>
-    <string name="accessibility_large_text_desc">Increase text size for better readability</string>
     <string name="accessibility_font_scale">Font Size</string>
     <string name="accessibility_font_scale_desc">Adjust text size for better readability</string>
     <string name="accessibility_font_scale_small">Small (85%)</string>
@@ -137,11 +129,7 @@
     <string name="accessibility_font_scale_dialog_title">Choose Font Size</string>
     <string name="accessibility_font_scale_dialog_desc">Select your preferred text size</string>
     <string name="accessibility_font_scale_preview">Preview Text</string>
-    <string name="accessibility_font_scale_system">System Default</string>
-    <string name="accessibility_font_scale_system_desc">Use system font size setting</string>
-    <string name="accessibility_font_scale_reset">Reset to System</string>
-        <string name="accessibility_font_scale_reset_desc">Reset to system font size setting</string>
-    
+
     <!-- Font Scale Descriptions -->
     <string name="accessibility_font_scale_small_desc">Small (85%)</string>
     <string name="accessibility_font_scale_medium_desc">Medium (100%)</string>
@@ -194,9 +182,7 @@
     <string name="cd_note_empty_state_message">Empty notes list message</string>
     
     <!-- Note Action Messages -->
-    <string name="note_add_action">Add Note</string>
     <string name="cd_note_add_action">Add Note button</string>
-    <string name="note_delete_action">Delete Note</string>
     <string name="cd_note_delete_action">Delete Note button</string>
     <string name="note_delete_dialog_title">Delete Note</string>
     <string name="note_delete_dialog_message">Are you sure you want to delete this note? This action cannot be undone.</string>
@@ -217,10 +203,6 @@
     <string name="cd_quiz_answer_true">True answer option</string>
     <string name="cd_quiz_answer_false">False answer option</string>
     
-    <!-- Motion Actuation Description -->
-    <string name="motion_actuation_description">Motion actuation allows you to perform actions by shaking your device. This feature can be enabled or disabled in accessibility settings. When enabled, you can shake to open a new note screen and shake again to save the note. Alternative methods are always available through standard UI controls.</string>
-    <string name="cd_motion_actuation_description">Motion actuation feature description</string>
-    
     <!-- Interaction Accessibility Settings -->
 
     
@@ -230,11 +212,6 @@
     <string name="accessibility_on">on</string>
     <string name="accessibility_off">off</string>
     
-    <!-- Accessibility Prompt -->
-    <string name="accessibility_enable_prompt">Enable accessibility services for a better experience with screen readers and other assistive technologies</string>
-    <string name="cd_accessibility_prompt">Accessibility services prompt</string>
-    <string name="cd_accessibility_prompt_dismiss">Dismiss accessibility prompt</string>
-    
     <!-- Content Descriptions for Accessibility Settings -->
     <string name="cd_accessibility_back_button">Back to profile</string>
     <string name="cd_accessibility_toggle">%1$s switch, %2$s</string>
@@ -242,17 +219,8 @@
     <string name="cd_theme_switch">Theme switch</string>
     <string name="cd_high_contrast_toggle">High contrast toggle, %1$s</string>
     
-    <!-- Theme and Accessibility Messages -->
-    <string name="theme_light_mode">Light mode</string>
-    <string name="theme_dark_mode">Dark mode</string>
-    <string name="theme_system_mode">System theme</string>
-    <string name="theme_changed_to_light">Switched to light mode</string>
-    <string name="theme_changed_to_dark">Switched to dark mode</string>
-    <string name="theme_following_system">Following system theme</string>
-    
     <!-- Video Screen Strings -->
     <string name="library_page_title">Library</string>
-    <string name="video_page_coming_soon">Video content coming soon!</string>
     <string name="video_search_placeholder">Search for accessibility videos...</string>
     <string name="video_search_icon">Search icon</string>
     <string name="video_clear_search">Clear search</string>
@@ -297,19 +265,10 @@
     <string name="cd_quiz_page">Quiz screen, question %1$d of %2$d. Swipe left to go to next question, swipe right to go to previous question.</string>
     <string name="cd_settings_topbar">Settings screen title</string>
     
-    <!-- Motion Actuation Fallback Strings -->
-    <string name="motion_actuation_fallback_title">Motion Actuation Fallback</string>
-    <string name="motion_actuation_fallback_desc">Add a quick note without shaking the device</string>
-    <string name="motion_actuation_fallback_button">Add Quick Note (Accessible Fallback)</string>
-    <string name="cd_motion_actuation_fallback_button">Add a quick note without shaking the phone</string>
-    <string name="quick_note_added_via_shake">Quick note added via shake gesture</string>
-    <string name="quick_note_added">Quick note added</string>
     <string name="accessibility_motion_actuation">Motion Actuation</string>
     <string name="accessibility_motion_actuation_desc">Enable shake gesture to open new note page and save notes</string>
     
     <!-- Two-Stage Motion Actuation Strings -->
-    <string name="shake_to_open_note">Shake to open new note screen</string>
-    <string name="shake_to_save_note">Shake to save note</string>
     <string name="note_opened_via_shake">New note screen opened via shake gesture</string>
     <string name="note_saved_via_shake">Note saved via shake gesture</string>
     <string name="note_empty_cannot_save">Note is empty. Please write something before saving.</string>
@@ -338,8 +297,6 @@
     <string name="video_player_caption_language_english">English</string>
     <string name="video_player_caption_language_german">Deutsch</string>
     <string name="video_player_caption_language_off">Off</string>
-    <string name="video_player_caption_language_menu">Caption Language</string>
-    <string name="video_player_caption_language_menu_desc">Select caption language</string>
     <string name="cd_video_player_caption_language_menu">Caption language selection menu</string>
     <string name="cd_video_player_caption_language_english">English captions</string>
     <string name="cd_video_player_caption_language_german">German captions</string>
@@ -471,30 +428,6 @@
     <string name="feedback_success_dismiss">Dismiss</string>
     <string name="feedback_success_back_to_settings">Back to Settings</string>
     
-    <!-- Email Feedback Messages -->
-    <string name="feedback_email_launched">Email app opened! Please send the feedback from your email app.</string>
-    <string name="feedback_email_sent">Feedback sent successfully! Check your email app.</string>
-    <string name="feedback_sent_successfully">Feedback sent successfully!</string>
-    <string name="feedback_email_error">Unable to send feedback. Please try again.</string>
-    <string name="feedback_email_no_app">No email app found. Please install an email app and try again.</string>
-    <string name="feedback_email_permission">Permission denied. Please check your app permissions.</string>
-    <string name="feedback_toast_dismiss">Dismiss</string>
-    
-    <!-- Retry Dialog Strings -->
-    <string name="feedback_retry_title">Send Feedback Failed</string>
-    <string name="feedback_retry_message">There was a problem sending your feedback. Would you like to try again?</string>
-    <string name="feedback_retry_button">Try Again</string>
-    <string name="feedback_retry_dismiss">Cancel</string>
-    
-    <!-- No Email App Dialog Strings -->
-    <string name="feedback_no_email_app_title">No Email App Found</string>
-    <string name="feedback_no_email_app_message">Your device doesn\'t have an email app installed. You can install one from the Play Store or copy the feedback to your clipboard.</string>
-    <string name="feedback_no_email_app_install">Install Email App</string>
-    <string name="feedback_no_email_app_copy">Copy to Clipboard</string>
-    <string name="feedback_no_email_app_dismiss">Cancel</string>
-    <string name="feedback_copied_to_clipboard">Feedback copied to clipboard</string>
-    <string name="feedback_copy_error">Failed to copy feedback</string>
-    
     <!-- Feedback Content Descriptions -->
     <string name="cd_feedback_back_button">Back to settings</string>
     <string name="cd_feedback_type_option">%1$s feedback type option, %2$s</string>
@@ -503,16 +436,6 @@
     <string name="cd_feedback_success_dialog">Feedback submission success dialog</string>
     <string name="cd_feedback_success_dismiss_button">Dismiss success dialog</string>
     <string name="cd_feedback_success_back_button">Return to settings</string>
-    <string name="cd_feedback_toast_message">Feedback submission message</string>
-    <string name="cd_feedback_toast_dismiss">Dismiss feedback message</string>
-    <string name="cd_feedback_retry_dialog">Feedback retry dialog</string>
-    <string name="cd_feedback_retry_button">Try sending feedback again</string>
-    <string name="cd_feedback_retry_dismiss_button">Cancel retry and dismiss dialog</string>
-    <string name="cd_feedback_no_email_app_dialog">No email app found dialog</string>
-    <string name="cd_feedback_no_email_app_install_button">Install email app from Play Store</string>
-    <string name="cd_feedback_no_email_app_copy_button">Copy feedback to clipboard</string>
-    <string name="cd_feedback_no_email_app_dismiss_button">Cancel and dismiss dialog</string>
-    
     <!-- Login Screen Strings -->
     <string name="login_welcome_title">Welcome</string>
     <string name="login_welcome_subtitle">Sign in to access your quiz</string>
