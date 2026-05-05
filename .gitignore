@@ -22,25 +22,3 @@ app/google-services.json
 .cxx
 local.properties
 gradle/wrapper/gradle-wrapper.jar
-
-# Large media files
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.wmv
-*.flv
-*.webm
-*.m4v
-*.3gp
-
-# Sample media files (keep only small test files)
-app/src/main/res/raw/*.mp4
-app/src/main/res/raw/*.avi
-app/src/main/res/raw/*.mov
-app/src/main/res/raw/*.mkv
-app/src/main/res/raw/*.wmv
-app/src/main/res/raw/*.flv
-app/src/main/res/raw/*.webm
-app/src/main/res/raw/*.m4v
-app/src/main/res/raw/*.3gp
