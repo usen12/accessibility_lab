@@ -30,13 +30,8 @@ AccessLab lets users take an interactive quiz on EN 301 549 / WCAG 2.1 criteria,
   </tr>
   <tr>
     <td align="center"><img src="screenshots/screenshot_video_library_local_player.png" width="200"><br/><sub>Video player — ExoPlayer with CC subtitle controls</sub></td>
-    <td align="center"><img src="screenshots/screenshot_settings_dark.png" width="200"><br/><sub>Settings hub</sub></td>
     <td align="center"><img src="screenshots/screenshot_settings_accessibility_high_contrast.png" width="200"><br/><sub>Accessibility settings — dark mode and high-contrast toggles</sub></td>
-  </tr>
-  <tr>
     <td align="center"><img src="screenshots/screenshot_settings_accessibility_large_font.png" width="200"><br/><sub>Font scale selector — 5 levels from 85 % to 200 %</sub></td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
 
