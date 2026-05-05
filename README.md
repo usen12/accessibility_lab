@@ -12,7 +12,33 @@ AccessLab lets users take an interactive quiz on EN 301 549 / WCAG 2.1 criteria,
 
 ## Screenshots
 
-_Coming soon_
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot_home_light.png" width="200"><br/><sub>Home — light theme</sub></td>
+    <td align="center"><img src="screenshots/screenshot_home_dark.png" width="200"><br/><sub>Home — dark theme</sub></td>
+    <td align="center"><img src="screenshots/screenshot_login_dark.png" width="200"><br/><sub>Login</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot_quiz_question_dark.png" width="200"><br/><sub>Quiz question</sub></td>
+    <td align="center"><img src="screenshots/screenshot_quiz_results_dark.png" width="200"><br/><sub>Quiz results — score and criteria to review</sub></td>
+    <td align="center"><img src="screenshots/screenshot_quiz_question_high_contrast.png" width="200"><br/><sub>Quiz question — high-contrast theme</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot_notes_list_dark.png" width="200"><br/><sub>Notes list with clause tags and protected-note badges</sub></td>
+    <td align="center"><img src="screenshots/screenshot_notes_edit_dark.png" width="200"><br/><sub>Note editing</sub></td>
+    <td align="center"><img src="screenshots/screenshot_video_library_dark.png" width="200"><br/><sub>Video library — YouTube search results</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot_video_library_local_player.png" width="200"><br/><sub>Video player — ExoPlayer with CC subtitle controls</sub></td>
+    <td align="center"><img src="screenshots/screenshot_settings_dark.png" width="200"><br/><sub>Settings hub</sub></td>
+    <td align="center"><img src="screenshots/screenshot_settings_accessibility_high_contrast.png" width="200"><br/><sub>Accessibility settings — dark mode and high-contrast toggles</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot_settings_accessibility_large_font.png" width="200"><br/><sub>Font scale selector — 5 levels from 85 % to 200 %</sub></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 
