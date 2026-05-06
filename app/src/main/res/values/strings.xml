@@ -115,6 +115,8 @@
     <string name="accessibility_interaction_title">Interaction Accessibility</string>
     
     <!-- Visual Accessibility Settings -->
+    <string name="accessibility_follow_system_theme">Follow system theme</string>
+    <string name="accessibility_follow_system_theme_desc">Automatically switch dark/light mode with your device settings</string>
     <string name="accessibility_dark_mode">Dark Mode</string>
     <string name="accessibility_dark_mode_desc">Use dark theme for better contrast and reduced eye strain</string>
     <string name="accessibility_high_contrast">High Contrast</string>

@@ -110,13 +110,19 @@ fun AccessLabThemeWithManager(
     highContrast: Boolean = false,
     content: @Composable () -> Unit
 ) {
-    val isDarkMode by themeManager.isDarkMode.collectAsState()
-    
-    // Make the theme reactive to font scale changes
+    val themeMode by themeManager.themeMode.collectAsState()
+    val systemDark = isSystemInDarkTheme()
+
+    val isDark = when (themeMode) {
+        ThemeManager.THEME_DARK  -> true
+        ThemeManager.THEME_LIGHT -> false
+        else                     -> systemDark
+    }
+
     val currentFontScale by TypographyManager.getScaleState()
-    
+
     AccessLabTheme(
-        darkTheme = isDarkMode,
+        darkTheme = isDark,
         highContrast = highContrast,
         content = content
     )

@@ -18,6 +18,9 @@ class AccessibilitySettingsViewModel : ViewModel() {
     private var context: Context? = null
     private var themeManager: ThemeManager? = null
 
+    var followSystem by mutableStateOf(true)
+        private set
+
     var darkMode by mutableStateOf(false)
         private set
 
@@ -33,17 +36,23 @@ class AccessibilitySettingsViewModel : ViewModel() {
     var motionActuationEnabled by mutableStateOf(false)
         private set
 
+    fun updateFollowSystem(enabled: Boolean) {
+        followSystem = enabled
+        val mode = when {
+            enabled -> ThemeManager.THEME_SYSTEM
+            darkMode -> ThemeManager.THEME_DARK
+            else -> ThemeManager.THEME_LIGHT
+        }
+        themeManager?.setThemeMode(mode)
+        saveSetting("follow_system", enabled)
+    }
+
     fun updateDarkMode(enabled: Boolean) {
-        Log.d("AccessibilitySettingsViewModel", "updateDarkMode called with: $enabled")
         darkMode = enabled
-        themeManager?.let { manager ->
-            if (enabled) {
-                manager.setThemeMode(ThemeManager.THEME_DARK)
-            } else {
-                manager.setThemeMode(ThemeManager.THEME_LIGHT)
-            }
-        } ?: run {
-            Log.e("AccessibilitySettingsViewModel", "ThemeManager is null!")
+        if (!followSystem) {
+            themeManager?.setThemeMode(
+                if (enabled) ThemeManager.THEME_DARK else ThemeManager.THEME_LIGHT
+            )
         }
         saveSetting("dark_mode", enabled)
     }
@@ -73,10 +82,10 @@ class AccessibilitySettingsViewModel : ViewModel() {
             val sharedPrefs =
                 context.getSharedPreferences("accessibility_settings", Context.MODE_PRIVATE)
 
-            val themeMode = themeManager.themeMode.value
-            darkMode = when (themeMode) {
+            val storedMode = themeManager.themeMode.value
+            followSystem = storedMode == ThemeManager.THEME_SYSTEM
+            darkMode = when (storedMode) {
                 ThemeManager.THEME_DARK -> true
-                ThemeManager.THEME_LIGHT -> false
                 ThemeManager.THEME_SYSTEM -> themeManager.getEffectiveDarkMode()
                 else -> false
             }

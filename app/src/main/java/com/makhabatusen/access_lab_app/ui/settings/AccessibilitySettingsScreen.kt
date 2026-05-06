@@ -124,15 +124,22 @@ fun AccessibilitySettingsScreen(onBackPressed: () -> Unit) {
                 isTablet = isTablet
             ) {
                 AccessibilityToggleItem(
+                    title = stringResource(R.string.accessibility_follow_system_theme),
+                    description = stringResource(R.string.accessibility_follow_system_theme_desc),
+                    iconRes = R.drawable.ic_dark_mode,
+                    isEnabled = accessibilityViewModel.followSystem,
+                    onToggle = { accessibilityViewModel.updateFollowSystem(it) },
+                    isTablet = isTablet
+                )
+                AccessibilityToggleItem(
                     title = stringResource(R.string.accessibility_dark_mode),
                     description = stringResource(R.string.accessibility_dark_mode_desc),
                     iconRes = R.drawable.ic_dark_mode,
                     isEnabled = accessibilityViewModel.darkMode,
-                    onToggle = { 
-                        accessibilityViewModel.updateDarkMode(it)
-                    },
+                    onToggle = { accessibilityViewModel.updateDarkMode(it) },
                     isTablet = isTablet,
-                    isHighPriority = true // Dark mode is a high priority setting
+                    isHighPriority = true,
+                    enabled = !accessibilityViewModel.followSystem
                 )
                 
                 AccessibilityToggleItem(
@@ -246,7 +253,8 @@ private fun AccessibilityToggleItem(
     isEnabled: Boolean,
     onToggle: (Boolean) -> Unit,
     isTablet: Boolean,
-    isHighPriority: Boolean = false
+    isHighPriority: Boolean = false,
+    enabled: Boolean = true
 ) {
     val toggleDescription = stringResource(
         R.string.cd_accessibility_toggle,
@@ -313,6 +321,7 @@ private fun AccessibilityToggleItem(
                 Switch(
                     checked = isEnabled,
                     onCheckedChange = onToggle,
+                    enabled = enabled,
                     modifier = Modifier
                         .semantics { 
                             contentDescription = toggleDescription
